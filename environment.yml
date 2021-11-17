@@ -1,0 +1,44 @@
+# Install the environment by running `conda env create -f environment.yml`.
+# If you have `mamba`, feel free to switch `conda` with `mamba`.
+name: therapeutic_enzyme_engineering_with_generative_neural_networks
+channels:
+- conda-forge
+dependencies:
+- python
+- pip
+- build
+- twine
+- bumpversion
+# Standard PyData stack
+- numpy
+- pandas
+- scipy
+- matplotlib
+- scikit-learn
+- seaborn
+# Deep Learning stack
+- pytorch-gpu
+- cudatoolkit=11.0
+# Utilities
+- pyprojroot
+- ipykernel
+- nbconvert
+- ipywidgets
+# Documentation
+- mkdocs
+- mkdocs-material
+# Code quality
+- black
+- flake8
+- mypy
+- pre-commit
+- darglint
+- interrogate
+- nbqa
+# Testing
+- pytest
+- hypothesis
+# pip dependencies, which cannot be installed via conda
+- pip:
+  - mkdocstrings
+  - mknotebooks
