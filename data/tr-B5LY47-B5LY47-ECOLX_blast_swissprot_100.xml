@@ -1,0 +1,2449 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_59505</BlastOutput_query-ID>
+  <BlastOutput_query-def>tr|B5LY47|B5LY47_ECOLX Beta-lactamase (Fragment) OS=Escherichia coli OX=562 PE=1 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>278</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_59505</Iteration_query-ID>
+  <Iteration_query-def>tr|B5LY47|B5LY47_ECOLX Beta-lactamase (Fragment) OS=Escherichia coli OX=562 PE=1 SV=1</Iteration_query-def>
+  <Iteration_query-len>278</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P74841.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CTX-M-2; AltName: Full=Cefotaximase 2; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>P74841</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.17406e-170</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ATLPLLFSSATLHAQANSVQQQLEALEKSSGGRLGVALINTADNSQILYRADERFAMCSTSKVMAAAAVLKQSESDKHLLNQRVEIKKSDLVNYNPIAEKHVNGTMTLAELGAAALQYSDNTAMNKLIAHLGGPDKVTAFARSLGDETFRLDRTEPTLNTAIPGDPRDTTTPLAMAQTLKNLTLGKALAETQRAQLVTWLKGNTTGSASIRAGLPKSWVVGDKTGSGDYGTTNDIAVIWPENHAPLVLVTYFTQPEQKAESRRDILAAAAKIVTHGF</Hsp_hseq>
+      <Hsp_midline>A +PLL  SA L+AQ ++VQQ+L ALEKSSGGRLGVALI+TADN+Q+LYR DERF MCSTSKVMAAAAVLKQSE+ K LLNQ VEIK +DLVNYNPIAEKHVNGTMTLAEL AAALQYSDNTAMNKLIA LGGP  VTAFAR++GDETFRLDRTEPTLNTAIPGDPRDTTTP AMAQTL+ LTLG AL ETQRAQLVTWLKGNTTG+ASIRAGLP SW VGDKTGSG YGTTNDIAVIWP+  APLVLVTYFTQP+Q AESRRD+LA+AA+I+  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|O69395.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase Toho-2; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>O69395</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.23189e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>AACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQ------TLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>AACIPLLLGSPTLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTARAGADVASLRWVMRWAKPSGAVGDVAQRQY--------DRAAGIRAGLPTSWTVGDKTGSGDYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_hseq>
+      <Hsp_midline>AACIPLLLGS  LYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTT RA A        +R      A+G+  + Q           AA IRAGLPTSWTVGDKTGSG YGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|E1ANH6.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CTX-M-97; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>E1ANH6</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.38387e-170</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ATLPLLFSSATLHAQANSVQQQLEALEKSSGGRLGVALINTADNSQILYRADERFAMCSTSKVMAAAAVLKQSESDKHLLNQRVEIKKSDLVNYNPIAEKHVNGTMTLAELGAAALQYSDNTAMNKLIAHLGGPDKVTAFARSLGDETFRLDRTEPTLNTAIPGDPRDTTTPLAMAQTLKNLTLGKALAETQRAQLVTWLKGNTTGSASIRAGLPKSWVVGDKTGSGDYGTTNDIAVIWPENHAPLVLVTYFTQPEQKAESRRDILAAAAKIVTHGF</Hsp_hseq>
+      <Hsp_midline>A +PLL  SA L+AQ ++VQQ+L ALEKSSGGRLGVALI+TADN+Q+LYR DERF MCSTSKVMAAAAVLKQSE+ K LLNQ VEIK +DLVNYNPIAEKHVNGTMTLAEL AAALQYSDNTAMNKLIA LGGP  VTAFAR++GDETFRLDRTEPTLNTAIPGDPRDTTTP AMAQTL+ LTLG AL ETQRAQLVTWLKGNTTG+ASIRAGLP SW VGDKTGSG YGTTNDIAVIWP+  APLVLVTYFTQP+Q AESRRD+LA+AA+I+  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q47066.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase Toho-1; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>Q47066</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.781</Hsp_bit-score>
+      <Hsp_score>1218</Hsp_score>
+      <Hsp_evalue>8.91961e-170</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ATLPLLFSSATLHAQANSVQQQLEALEKSSGGRLGVALINTADNSQILYRADERFAMCSTSKVMAAAAVLKQSESDKHLLNQRVEIKKSDLVNYNPIAEKHVNGTMTLAELGAAALQYSDNTAMNKLIAHLGGPDKVTAFARSLGDETFRLDRTEPTLNTAIPGDPRDTTTPLAMAQTLKNLTLGKALAETQRAQLVTWLKGNTTGSASIRAGLPKSWVVGDKTGSGDYGTTNDIAVIWPENHAPLVLVTYFTQPEQKAERRRDILAAAAKIVTHGF</Hsp_hseq>
+      <Hsp_midline>A +PLL  SA L+AQ ++VQQ+L ALEKSSGGRLGVALI+TADN+Q+LYR DERF MCSTSKVMAAAAVLKQSE+ K LLNQ VEIK +DLVNYNPIAEKHVNGTMTLAEL AAALQYSDNTAMNKLIA LGGP  VTAFAR++GDETFRLDRTEPTLNTAIPGDPRDTTTP AMAQTL+ LTLG AL ETQRAQLVTWLKGNTTG+ASIRAGLP SW VGDKTGSG YGTTNDIAVIWP+  APLVLVTYFTQP+Q AE RRD+LA+AA+I+  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P28585.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CTX-M-1; AltName: Full=Beta-lactamase MEN-1; AltName: Full=Cefotaximase 1; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>P28585</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.7</Hsp_bit-score>
+      <Hsp_score>1210</Hsp_score>
+      <Hsp_evalue>1.77771e-168</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ATVTLLLGSVPLYAQTADVQQKLAELERQSGGRLGVALINTADNSQILYRADERFAMCSTSKVMAVAAVLKKSESEPNLLNQRVEIKKSDLVNYNPIAEKHVDGTMSLAELSAAALQYSDNVAMNKLISHVGGPASVTAFARQLGDETFRLDRTEPTLNTAIPGDPRDTTSPRAMAQTLRNLTLGKALGDSQRAQLVTWMKGNTTGAASIQAGLPASWVVGDKTGSGDYGTTNDIAVIWPKDRAPLILVTYFTQPQPKAESRRDVLASAAKIVTNGL</Hsp_hseq>
+      <Hsp_midline>A + LLLGS PLYAQT+ VQQKLA LE+ SGGRLGVALI+TADN+Q+LYR DERF MCSTSKVMA AAVLK+SE++  LLNQ VEIK +DLVNYNPIAEKHV+GTM+LAELSAAALQYSDN AMNKLI+ +GGP  VTAFAR +GDETFRLDRTEPTLNTAIPGDPRDTT+PRAMAQTLR LTLG ALG++QRAQLVTW+KGNTTGAASI+AGLP SW VGDKTGSG YGTTNDIAVIWP+ RAPL+LVTYFTQPQ  AESRRDVLASAA+I+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|O65975.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CTX-M-5; AltName: Full=Cefotaximase 5; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>O65975</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.233</Hsp_bit-score>
+      <Hsp_score>1201</Hsp_score>
+      <Hsp_evalue>3.95298e-167</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ATLPLLFSSATLHAQANSVQQQLEALEKSSGGRLGVALINTADNSQILYLADERFAMCSTSKVMAAAAVLKQSESDKHLLNQRVEIKASDLVNYNPIAEKHVNGTMTLAELGAGALQYSDNTAMNKLIAHLGGPDKVTAFARSLGDETFRLDRTEPTLNSAIPGDPRDTTTPLAMAQTLKNLTLGKALAETQRAQLVTWLKGNTTGSASIRAGLPKCWVVGDKTGSGDYGTTNDIAVIWPENHAPLVLVTYFTQPEQKAESRRDVLAAAAKIVTHGF</Hsp_hseq>
+      <Hsp_midline>A +PLL  SA L+AQ ++VQQ+L ALEKSSGGRLGVALI+TADN+Q+LY  DERF MCSTSKVMAAAAVLKQSE+ K LLNQ VEIK +DLVNYNPIAEKHVNGTMTLAEL A ALQYSDNTAMNKLIA LGGP  VTAFAR++GDETFRLDRTEPTLN+AIPGDPRDTTTP AMAQTL+ LTLG AL ETQRAQLVTWLKGNTTG+ASIRAGLP  W VGDKTGSG YGTTNDIAVIWP+  APLVLVTYFTQP+Q AESRRDVLA+AA+I+  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|O65976.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CTX-M-6; AltName: Full=Cefotaximase 6; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>O65976</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.307</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>2.43807e-166</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ATLPLLFSSATLHAQANSVQQQLEALEKSSGGRLGVALINTADNSQILYVADERFAMCSTSKVMAAAAVLKQSESDKHLLNQRVEIRASDLVNYNPIAEKHVNGTMTLAQLGAGALQYSDNTAMNKLIAHLGGPDKVTAFARSLGDETFRLDRTEPTLNSAIPGDPRDTTTPLAMAQTLKNLTLGKALAETQRAQLVTWLKGNTTGSASIRAGLPKSWGVGDKTGSGDYGTTNDIAVIWPENHAPLVLVTYFTQPEQKAESRRDVLAAAAKIVTHGF</Hsp_hseq>
+      <Hsp_midline>A +PLL  SA L+AQ ++VQQ+L ALEKSSGGRLGVALI+TADN+Q+LY  DERF MCSTSKVMAAAAVLKQSE+ K LLNQ VEI+ +DLVNYNPIAEKHVNGTMTLA+L A ALQYSDNTAMNKLIA LGGP  VTAFAR++GDETFRLDRTEPTLN+AIPGDPRDTTTP AMAQTL+ LTLG AL ETQRAQLVTWLKGNTTG+ASIRAGLP SW VGDKTGSG YGTTNDIAVIWP+  APLVLVTYFTQP+Q AESRRDVLA+AA+I+  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|O33807.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CTX-M-4; AltName: Full=Cefotaximase 4; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>O33807</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>1.65953e-165</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ATLPLLFSSATLHAQANSVQQQLEALEKSSGGRLGVAQINTADNSQILYVADERFAMCSTSKVMAAAAVLKQSESDKHLLNQRVEIRASDLVNYNPIAEKHVNGTMTLAELGAGALQYSDNTAMNKLIAHLGGPDKVTAFARSLGDETFRLDRTEPTLNSAIPGDPRDTTTPLAMAQTLKNLTLGKALAETQRAQLVTWLKGNTTGSASIRAGMPKSWGVGDKTGSGDYGTTNDIAVIWPENHAPLVLVTYFTQPEQKAESRRDILAAAAKIVTHGF</Hsp_hseq>
+      <Hsp_midline>A +PLL  SA L+AQ ++VQQ+L ALEKSSGGRLGVA I+TADN+Q+LY  DERF MCSTSKVMAAAAVLKQSE+ K LLNQ VEI+ +DLVNYNPIAEKHVNGTMTLAEL A ALQYSDNTAMNKLIA LGGP  VTAFAR++GDETFRLDRTEPTLN+AIPGDPRDTTTP AMAQTL+ LTLG AL ETQRAQLVTWLKGNTTG+ASIRAG+P SW VGDKTGSG YGTTNDIAVIWP+  APLVLVTYFTQP+Q AESRRD+LA+AA+I+  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P80545.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Contains: RecName: Full=Beta-lactamase form I; Contains: RecName: Full=Beta-lactamase form II [Serratia fonticola]</Hit_def>
+  <Hit_accession>P80545</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>7.0595e-149</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>IQQQLSELEKNSGGRLGVALIDTADNSQILYRGDERFPMCSTSKVMAVSALLKQSETDKNLLAKRMEIKQSDLVNYNPIAEKHLDTGMTLAEFSAATIQYSDNTAMNKILEHLGGPAKVTEFARTIGDKTFRLDRTEPTLNTAIPGDKRDTTSPQAMAISLQNLTLGKALAEPQRAQLVEWMKGNTTGGASIRAGLPTTWVVGDKTGSGDYGTTNDIAVIWPANHAPLVLVTYFTQPQQNAEARKDVLAAAAKIVTAGL</Hsp_hseq>
+      <Hsp_midline>+QQ+L+ LEK+SGGRLGVALIDTADN+Q+LYRGDERFPMCSTSKVMA +A+LKQSET K LL + +EIK +DLVNYNPIAEKH++  MTLAE SAA +QYSDNTAMNK++  LGGP  VT FAR IGD+TFRLDRTEPTLNTAIPGD RDTT+P+AMA +L+ LTLG AL E QRAQLV W+KGNTTG ASIRAGLPT+W VGDKTGSG YGTTNDIAVIWP   APLVLVTYFTQPQQNAE+R+DVLA+AA+I+  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|P23954.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase OXY-2; AltName: Full=Penicillinase; Flags: Precursor [Klebsiella oxytoca]</Hit_def>
+  <Hit_accession>P23954</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.468</Hsp_bit-score>
+      <Hsp_score>1077</Hsp_score>
+      <Hsp_evalue>3.34182e-148</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>SAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>SGALWASTDAIHQKLTDLEKRSGGRLGVALINTADNSQILYRGDERFAMCSTSKVMAAAAVLKQSESNKEVVNKRLEINAADLVVWSPITEKHLQSGMTLAELSAATLQYSDNTAMNLIIGYLGGPEKVTAFARSIGDATFRLDRTEPTLNTAIPGDERDTSTPLAMAESLRKLTLGDALGEQQRAQLVTWLKGNTTGGQSIRAGLPESWVVGDKTGAGDYGTTNDIAVIWPEDHAPLVLVTYFTQPQQDAKNRKEVLAAAAKIVTEGL</Hsp_hseq>
+      <Hsp_midline>S  L+A T A+ QKL  LEK SGGRLGVALI+TADN+Q+LYRGDERF MCSTSKVMAAAAVLKQSE+ K+++N+ +EI  ADLV ++PI EKH+   MTLAELSAA LQYSDNTAMN +I  LGGP  VTAFAR+IGD TFRLDRTEPTLNTAIPGD RDT+TP AMA++LR+LTLG ALGE QRAQLVTWLKGNTTG  SIRAGLP SW VGDKTG+G YGTTNDIAVIWP+  APLVLVTYFTQPQQ+A++R++VLA+AA+I+ EGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|P22391.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase OXY-1; AltName: Full=Penicillinase; Flags: Precursor [Klebsiella oxytoca]</Hit_def>
+  <Hit_accession>P22391</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.67628e-147</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>SAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>SGSLWASADAIQQKLADLEKRSGGRLGVALINTADDSQTLYRGDERFAMCSTGKVMAAAAVLKQSESNPEVVNKRLEIKKSDLVVWSPITEKHLQSGMTLAELSAAALQYSDNTAMNKMISYLGGPEKVTAFAQSIGDVTFRLDRTEPALNSAIPGDKRDTTTPLAMAESLRKLTLGNALGEQQRAQLVTWLKGNTTGGQSIRAGLPASWAVGDKTGAGDYGTTNDIAVIWPENHAPLVLVTYFTQPQQDAKSRKEVLAAAAKIVTEGL</Hsp_hseq>
+      <Hsp_midline>S  L+A   A+QQKLA LEK SGGRLGVALI+TAD++Q LYRGDERF MCST KVMAAAAVLKQSE+  +++N+ +EIK +DLV ++PI EKH+   MTLAELSAAALQYSDNTAMNK+I+ LGGP  VTAFA++IGD TFRLDRTEP LN+AIPGD RDTTTP AMA++LR+LTLG+ALGE QRAQLVTWLKGNTTG  SIRAGLP SW VGDKTG+G YGTTNDIAVIWP+  APLVLVTYFTQPQQ+A+SR++VLA+AA+I+ EGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|P22390.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Citrobacter koseri]</Hit_def>
+  <Hit_accession>P22390</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.297</Hsp_bit-score>
+      <Hsp_score>1048</Hsp_score>
+      <Hsp_evalue>8.10436e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>AACIPLLLGSAPLYAQT----SAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>AAVLAFFTASSPLLARTQGEPTQVQQKLAALEKQSGGRLGVALINTADRSQILYRGDERFAMCSTSKTMVAAAVLKQSETQHDILQQKMVIKKADLTNWNPVTEKYVDKEMTLAELSAATLQYSDNTAMNKLLEHLGGTSNVTAFARSIGDTTFRLDRKEPELNTAIPGDERDTTCPLAMAKSLHKLTLGDALAGAQRAQLVEWLKGNTTGGQSIRAGLPEGWVVGDKTGAGDYGTTNDIAVIWPEDRAPLILVTYFTQPQQDAKGRKDILAAAAKIVTEGL</Hsp_hseq>
+      <Hsp_midline>AA +     S+PL A+T    + VQQKLAALEK SGGRLGVALI+TAD +Q+LYRGDERF MCSTSK M AAAVLKQSETQ  +L Q + IK ADL N+NP+ EK+V+  MTLAELSAA LQYSDNTAMNKL+  LGG   VTAFAR+IGD TFRLDR EP LNTAIPGD RDTT P AMA++L +LTLG AL   QRAQLV WLKGNTTG  SIRAGLP  W VGDKTG+G YGTTNDIAVIWP+ RAPL+LVTYFTQPQQ+A+ R+D+LA+AA+I+ EGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P52664.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Cefuroximase; Flags: Precursor [Proteus vulgaris]</Hit_def>
+  <Hit_accession>P52664</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.688</Hsp_bit-score>
+      <Hsp_score>927</Hsp_score>
+      <Hsp_evalue>3.20845e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>AACIPLLLGSAPLYAQTS-AVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>AVSLISLLVSPMLWANTNNTIEEQLSTLEKYSQGRLGVALINTEDNSQITYRGEERFAMASTSKVMAVAAVLKESEKQAGLLDKNITIKKSDLVAYSPITEKHLVTGMSLAQLSAATLQYSDNTAMNKILDYLGGPAKVTQFARSINDVTYRLDRKEPELNTAIHGDPRDTTSPIAMAKSLQALTLGDALGQSQRQQLVTWLKGNTTGDHSIKAGLPKHWIVGDKTGSGDYGTTNDIAVIWPKNHAPLILVVYFTQQEQDAKYRKDIIVKATEIVTKEI</Hsp_hseq>
+      <Hsp_midline>A  +  LL S  L+A T+  ++++L+ LEK S GRLGVALI+T DN+Q+ YRG+ERF M STSKVMA AAVLK+SE Q  LL++ + IK +DLV Y+PI EKH+   M+LA+LSAA LQYSDNTAMNK++  LGGP  VT FAR+I D T+RLDR EP LNTAI GDPRDTT+P AMA++L+ LTLG ALG++QR QLVTWLKGNTTG  SI+AGLP  W VGDKTGSG YGTTNDIAVIWP+  APL+LV YFTQ +Q+A+ R+D++  A  I+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|P80298.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase [Proteus vulgaris]</Hit_def>
+  <Hit_accession>P80298</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>6.32778e-123</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>SAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>NTIEEQLSTLEKYSQGRLGVALINTEDNSQITYRGEERFAMASTSKVMAVAAILKESEKQAGLLDKNIIITKSDLVAYSPITEKHLATGMSLAQLSAATLQYSDNTAMNKILDYLGGPSKVTQFARSINDVTYRLDRKEPELNTAIHGDPRDTTSPIAMAKSLQALTLGDALGQSQRQQLVTWLKGNTTGDHSIKAGLPKHWIVGDKTGSGDYGTTNDIAVIWPKNHAPLILVVYFTQQEQDAKYRKDIIVKATEIVTK</Hsp_hseq>
+      <Hsp_midline>+ ++++L+ LEK S GRLGVALI+T DN+Q+ YRG+ERF M STSKVMA AA+LK+SE Q  LL++ + I  +DLV Y+PI EKH+   M+LA+LSAA LQYSDNTAMNK++  LGGP  VT FAR+I D T+RLDR EP LNTAI GDPRDTT+P AMA++L+ LTLG ALG++QR QLVTWLKGNTTG  SI+AGLP  W VGDKTGSG YGTTNDIAVIWP+  APL+LV YFTQ +Q+A+ R+D++  A  I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q01166.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>Q01166</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>9.18443e-110</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>IPLLLGSAPLYAQT--SAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>LPLVSFALPAWANALPASVDKQLAELERNANGRLGVAMINTGNGTKILYRAAQRFPFCSTFKFMLAAAVLDQSQSQPNLLNKHINYHESDLLSYAPITRKNLAHGMTVSELCAATIQYSDNTAANLLIKELGGLAAVNQFARSIGDQMFRLDRWEPDLNTARPNDPRDTTTPAAMAASMNKLVLGDALRPAQRSQLAVWLKGNTTGDATIRAGAPTDWIVGDKTGSGDYGTTNDIAVLWPTKGAPIVLVVYFTQREKDAKPRRDVLASVTKII</Hsp_hseq>
+      <Hsp_midline>+PL+  + P +A    ++V ++LA LE+++ GRLGVA+I+T + T++LYR  +RFP CST K M AAAVL QS++Q  LLN+ +    +DL++Y PI  K++   MT++EL AA +QYSDNTA N LI +LGG   V  FAR+IGD+ FRLDR EP LNTA P DPRDTTTP AMA ++ +L LG AL   QR+QL  WLKGNTTG A+IRAG PT W VGDKTGSG YGTTNDIAV+WP   AP+VLV YFTQ +++A+ RRDVLAS  +II</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q848S6.1|</Hit_id>
+  <Hit_def>RecName: Full=Carbapenem-hydrolyzing beta-lactamase KPC; AltName: Full=Carbapenem-hydrolyzing beta-lactamase KPC-2; Flags: Precursor [Klebsiella oxytoca] &gt;sp|Q9F663.2| RecName: Full=Carbapenem-hydrolyzing beta-lactamase KPC; AltName: Full=Carbapenem-hydrolyzing beta-lactamase KPC-1; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>Q848S6</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.092</Hsp_bit-score>
+      <Hsp_score>697</Hsp_score>
+      <Hsp_evalue>1.48746e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGG-YGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>SCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSIGVYAMDTGSGATVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALVPWSPISEKYLTTGMTVAELSAAAVQYSDNAAANLLLKELGGPAGLTAFMRSIGDTTFRLDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLKGNTTGNHRIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKHSEAVIAAAARLALEGL</Hsp_hseq>
+      <Hsp_midline>+C+   L      A T+ V +  A LE+  GG +GV  +DT     V YR +ERFP+CS+ K   AAAVL +S+ Q  LL+ P+      LV ++PI+EK++   MT+AELSAAA+QYSDN A N L+ +LGGP G+TAF R+IGD TFRLDR E  LN+AIPGD RDT++PRA+ ++L++LTLG AL   QR Q V WLKGNTTG   IRA +P  W VGDKTG+ G YGT ND AV+WP GRAP+VL  Y   P ++ +    V+A+AAR+  EGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|P52663.1|</Hit_id>
+  <Hit_def>RecName: Full=Imipenem-hydrolyzing beta-lactamase; AltName: Full=Carbapenemase; AltName: Full=NMC-A; Flags: Precursor [Enterobacter cloacae]</Hit_def>
+  <Hit_accession>P52663</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>5.92558e-85</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQ-LGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGS-GGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ANTKGIDE-IKNLETDFNGRIGVYALDTGSGKSFSYRANERFPLCSSFKGFLAAAVLKGSQDNRLNLNQIVNYNTRSLEFHSPITTKYKDNGMSLGDMAAAALQYSDNGATNIILERYIGGPEGMTKFMRSIGDEDFRLDRWELDLNTAIPGDERDTSTPAAVAKSLKTLALGNILSEHEKETYQTWLKGNTTGAARIRASVPSDWVVGDKTGSCGAYGTANDYAVVWPKNRAPLIISVYTTKNEKEAKHEDKVIAEASRIAIDNL</Hsp_hseq>
+      <Hsp_midline>A T  + + +  LE    GR+GV  +DT       YR +ERFP+CS+ K   AAAVLK S+  +  LNQ V      L  ++PI  K+ +  M+L +++AAALQYSDN A N ++ + +GGP G+T F R+IGDE FRLDR E  LNTAIPGD RDT+TP A+A++L+ L LG+ L E ++    TWLKGNTTGAA IRA +P+ W VGDKTGS G YGT ND AV+WP+ RAPL++  Y T+ ++ A+    V+A A+RI  + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q9EZQ7.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase AST-1; Flags: Precursor [Nocardia asteroides]</Hit_def>
+  <Hit_accession>Q9EZQ7</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.39237e-82</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>TSAVQQ-KLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>TSAVADPRFAELETTSGARLGVFAVDTGSGRTVAHRADERFPMASTFKGLACGALLREHPLSTGYFDQVIHYSAAELVEYSPVTETRVETGMTVRELCDAAITVSDNTAGNQLLKLLGGPEGFTASLRSLGDATSRLDRWETDLNTAIPGDERDTTTPAALAADYRALVVGDVLGAPERDQLKAWLVANTTGATRIRAGLPADWTVGDKTGSPAYGSALDVAVAWPPGRAPIVIAVLSTKSEQDAEPDNALLAEATRVVVDAL</Hsp_hseq>
+      <Hsp_midline>TSAV   + A LE +SG RLGV  +DT     V +R DERFPM ST K +A  A+L++        +Q +    A+LV Y+P+ E  V   MT+ EL  AA+  SDNTA N+L+  LGGP G TA  R++GD T RLDR E  LNTAIPGD RDTTTP A+A   R L +G  LG  +R QL  WL  NTTGA  IRAGLP  WTVGDKTGS  YG+  D+AV WP GRAP+V+    T+ +Q+AE    +LA A R++ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|P52682.1|</Hit_id>
+  <Hit_def>RecName: Full=Carbapenem-hydrolyzing beta-lactamase Sme-1; Flags: Precursor [Serratia marcescens]</Hit_def>
+  <Hit_accession>P52682</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>1.49429e-81</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQ-LGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGS-GGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>KSDAAAKQIKKLEEDFDGRIGVFAIDTGSGNTFGYRSDERFPLCSSFKGFLAAAVLERVQQKKLDINQKVKYESRDLEYHSPITTKYKGSGMTLGDMASAALQYSDNGATNIIMERFLGGPEGMTKFMRSIGDNEFRLDRWELELNTAIPGDKRDTSTPKAVANSLNKLALGNVLNAKVKAIYQNWLKGNTTGDARIRASVPADWVVGDKTGSCGAIGTANDYAVIWPKNRAPLIVSIYTTRKSKDDKHSDKTIAEASRIAIQAI</Hsp_hseq>
+      <Hsp_midline>++ A  +++  LE+   GR+GV  IDT       YR DERFP+CS+ K   AAAVL++ + +K  +NQ V+ +  DL  ++PI  K+    MTL ++++AALQYSDN A N ++ + LGGP G+T F R+IGD  FRLDR E  LNTAIPGD RDT+TP+A+A +L +L LG+ L    +A    WLKGNTTG A IRA +P  W VGDKTGS G  GT ND AVIWP+ RAPL++  Y T+  ++ +     +A A+RI  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q44674.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>Q44674</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>3.30385e-79</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>QQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>NQKFVQLEKKFDARLGVYAIDTGSNKTIAYRPNERFAYASTYKVLAAAAVLKQKPIEK--LNDVIRYTKEDLVTYSPITEKHLDTGMSLKEISEAAIRYSDNTAGNILLQQLGGPKGFEKSLKQIGDHVTKADRFETDLNSAIPGDIRDTSTAKALATDLKAFTLGNTLTTDKRTILTDWMRGNATGDELIRAGAPAGWEVGDKSGAGSYGTRNDIAIVWPPDRAPIVLAILTKRFTKDAEYDNALIAEAAKVALDDL</Hsp_hseq>
+      <Hsp_midline> QK   LEK    RLGV  IDT  N  + YR +ERF   ST KV+AAAAVLKQ   +K  LN  +     DLV Y+PI EKH++  M+L E+S AA++YSDNTA N L+ QLGGP G     + IGD   + DR E  LN+AIPGD RDT+T +A+A  L+  TLG+ L   +R  L  W++GN TG   IRAG P  W VGDK+G+G YGT NDIA++WP  RAP+VL     +  ++AE    ++A AA++  + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|P39824.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39824</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>5.62354e-76</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>CIPLLL----GSAPLYAQTSA--------------VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>CVGLLCLSITGFTPFFNSTHAEAKSIEDTNMASCITNKKFVQLEKKFDARLGVYAIDIGSNKTIAYRPNERFAYASTYKVLAAAAVLKKNSIEK--LNEVIHYSKDDLVTYSPITEKHLDTGMSLKEISEAAIRYSDNTAGNILLQQLGGPKGFEKSLKQIGDHVTKAKRFETDLNSAIPGDIRDTSTAKALATDLKAFTLDNTLTTDKRMILTDWMRGNATGDELIRAGAPIGWEVGDKSGAGSYGTRNDIAIVWPPNRAPIVVAILSNRFTKDANYDNALIAEAAKVVLNDL</Hsp_hseq>
+      <Hsp_midline>C+ LL     G  P +  T A                +K   LEK    RLGV  ID   N  + YR +ERF   ST KV+AAAAVLK++  +K  LN+ +     DLV Y+PI EKH++  M+L E+S AA++YSDNTA N L+ QLGGP G     + IGD   +  R E  LN+AIPGD RDT+T +A+A  L+  TL + L   +R  L  W++GN TG   IRAG P  W VGDK+G+G YGT NDIA++WP  RAP+V+     +  ++A     ++A AA+++   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|P06548.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase 3; AltName: Full=Beta-lactamase III; Flags: Precursor [Bacillus cereus]</Hit_def>
+  <Hit_accession>P06548</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>2.98626e-74</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQK------LAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>QTNQVKQENKRNHAFAKLEKEYNAKLGIYALDTSTNQTVAYHADDRFAFASTSKSLAVGALLRQNSIEA--LDERITYTRKDLSNYNPITEKHVDTGMTLKELADASVRYSDSTAHNLILKKLGGPSAFEKILREMGDTVTNSERFEPELNEVNPGETHDTSTPKAIAKTLQSFTLGTVLPSEKRELLVDWMKRNTTGDKLIRAGVPKGWEVADKTGAGSYGTRNDIAIIWPPNKKPIVLSILSNHDKEDAEYDDTLIADATKIVLETL</Hsp_hseq>
+      <Hsp_midline>QT+ V+Q+       A LEK    +LG+  +DT+ N  V Y  D+RF   STSK +A  A+L+Q+  +   L++ +     DL NYNPI EKHV+  MTL EL+ A+++YSD+TA N ++ +LGGP       R +GD     +R EP LN   PG+  DT+TP+A+A+TL+  TLG  L   +R  LV W+K NTTG   IRAG+P  W V DKTG+G YGT NDIA+IWP  + P+VL       +++AE    ++A A +I+ E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|P10424.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase 1; AltName: Full=Beta-lactamase I; AltName: Full=Penicillinase; Flags: Precursor [Bacillus cereus]</Hit_def>
+  <Hit_accession>P10424</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>4.36635e-74</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>KNQATHKEFSQLEKKFDARLGVYAIDTGTNQTIAYRPNERFAFASTYKALAAGVLLQQNSTKK--LDEVITYTKEDLVDYSPVTEKHVDTGMTLGEIAEAAVRYSDNTAGNILFHKIGGPKGYEKALRKMGDRVTMSDRFETELNEAIPGDIRDTSTAKAIARNLKDFTVGNALPHQKRNILTEWMKGNATGDKLIRAGVPTDWVDADKSGAGSYGTRNDIAIVWPPNRSPIIIAILSSKDEKEATYDNQLIKEAAEVVIDAI</Hsp_hseq>
+      <Hsp_midline>+  A  ++ + LEK    RLGV  IDT  N  + YR +ERF   ST K +AA  +L+Q+ T+K  L++ +     DLV+Y+P+ EKHV+  MTL E++ AA++YSDNTA N L  ++GGP G     R +GD     DR E  LN AIPGD RDT+T +A+A+ L+  T+G+AL   +R  L  W+KGN TG   IRAG+PT W   DK+G+G YGT NDIA++WP  R+P+++    ++ ++ A     ++  AA ++ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|P28018.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase 1; AltName: Full=Beta-lactamase I; AltName: Full=Penicillinase; Flags: Precursor [Bacillus mycoides]</Hit_def>
+  <Hit_accession>P28018</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>4.86676e-74</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>KNQATHKEFSQLEKKFDARLGVYAIDTGTNQTISYRHNERFAFASTYKALAAGVLLQQNSID--TLNEVIKFTKEDLVDYSPVTEKHVDTGMKLGEIAEAAVRSSDNTAGNILFHKIGGPKGYEKALRQIGDRVTMSDRFETELNEAIPGDIRDTSTAKAIASNLKAFTVGNALPAEKRKILTEWMKGNATGDKLIRAGVPTDWIVGDKSGAGSYGTRNDIAIVWPPNRAPIIIAILSSKDEKEATYDNQLIAEAPEVIVKSL</Hsp_hseq>
+      <Hsp_midline>+  A  ++ + LEK    RLGV  IDT  N  + YR +ERF   ST K +AA  +L+Q+      LN+ ++    DLV+Y+P+ EKHV+  M L E++ AA++ SDNTA N L  ++GGP G     R IGD     DR E  LN AIPGD RDT+T +A+A  L+  T+G+AL   +R  L  W+KGN TG   IRAG+PT W VGDK+G+G YGT NDIA++WP  RAP+++    ++ ++ A     ++A A  +I + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|Q06316.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Amycolatopsis lactamdurans]</Hit_def>
+  <Hit_accession>Q06316</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>1.20759e-73</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>AVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAE</Hsp_qseq>
+      <Hsp_hseq>AVEQEFTRLQTQYDARLGLYAVDTGSGESVAFRADERFAFASTFKALAAAAVLDS--TTPQQLDQVVRYSKDELLENSPITKDHVATGMTLRELCDAAVRFSDNTAGNLLLKHVGGPQGLDAALTAVGDEVTSADRWEPELNSAVPGDVRDTSTPRALAHDLRQFVLGDALAEDDRALLTDWLRRNTTGGTVIRAGVPADWVVGDKTGSGYYGGRNDIAVLWPPNRAPIVMAVMTSREEPRAK</Hsp_hseq>
+      <Hsp_midline>AV+Q+   L+     RLG+  +DT     V +R DERF   ST K +AAAAVL    T  Q L+Q V     +L+  +PI + HV   MTL EL  AA+++SDNTA N L+  +GGP G+ A   A+GDE    DR EP LN+A+PGD RDT+TPRA+A  LRQ  LG AL E  RA L  WL+ NTTG   IRAG+P  W VGDKTGSG YG  NDIAV+WP  RAP+V+    ++ +  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|Q45726.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>Q45726</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>3.01338e-72</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>KNQATHKEFSQLEKKFDARVGVYAIDTGTNQTISYRSNERFAFASTYKALAAGVLLQQNSID--TLNEVITFTKEDLVDYSPVTEKHVDTGMKLGEIAEAAVRSSDNTAGNILFNKIGGPKGYEKALRKMGDRVTMSDRFETELNEAIPGDIRDTSTAKRIATNLKAFTVGNALPAEKRKILTEWMKGNATGDKLIRAGVPTDWVVGDKSGAGSYGTRNDIAIVWPPNRAPIIIAILSSKDEKEASYDNQLIAEATEVIVKAL</Hsp_hseq>
+      <Hsp_midline>+  A  ++ + LEK    R+GV  IDT  N  + YR +ERF   ST K +AA  +L+Q+      LN+ +     DLV+Y+P+ EKHV+  M L E++ AA++ SDNTA N L  ++GGP G     R +GD     DR E  LN AIPGD RDT+T + +A  L+  T+G+AL   +R  L  W+KGN TG   IRAG+PT W VGDK+G+G YGT NDIA++WP  RAP+++    ++ ++ A     ++A A  +I + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|Q5YXD6.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase FAR-1; Flags: Precursor [Nocardia farcinica IFM 10152]</Hit_def>
+  <Hit_accession>Q5YXD6</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>1.10198e-70</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLV--LVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>AATAEFAALEQRFGARLGVYAVDTTSGAVVAYRADERFGMASTFKGLACGALLREHPLSSGYFDQVVRYSREEVVSYSPVTETRVDTGMTVAELCHATITVSDNTAGNQILKLLGGPAGFTAFLRSLGDEVSRLDRWETELNEVPPGEERDTTTPAAVAANYRALVLGDVLAEPERAQLRDWLVANTTGDQRIRAGVPAGWTVGDKTGGGSHGGNNDVAVAWTETGDPIVIALLSHRTDPAAKADNA--LLAEATRAVVTAL</Hsp_hseq>
+      <Hsp_midline>A   + AALE+  G RLGV  +DT     V YR DERF M ST K +A  A+L++        +Q V     ++V+Y+P+ E  V+  MT+AEL  A +  SDNTA N+++  LGGP G TAF R++GDE  RLDR E  LN   PG+ RDTTTP A+A   R L LG  L E +RAQL  WL  NTTG   IRAG+P  WTVGDKTG G +G  ND+AV W +   P+V  L+++ T P   A++   +LA A R +   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|P00809.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase 1; AltName: Full=Beta-lactamase I; AltName: Full=Penicillinase; Flags: Precursor [Bacillus cereus]</Hit_def>
+  <Hit_accession>P00809</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>3.85964e-70</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEG</Hsp_qseq>
+      <Hsp_hseq>KNQATHKEFSQLEKKFDARLGVYAIDTGTNQTISYRPNERFAFASTYKALAAGVLLQQNSIDS--LNEVITYTKEDLVDYSPVTEKHVDTGMKLGEIAEAAVRSSDNTAGNILFNKIGGPKGYEKALRHMGDRITMSNRFETELNEAIPGDIRDTSTAKAIATNLKAFTVGNALPAEKRKILTEWMKGNATGDKLIRAGIPTDWVVGDKSGAGSYGTRNDIAVVWPPNSAPIIVLIS-SKDEKEAIYNDQLIAEATKVIVKG</Hsp_hseq>
+      <Hsp_midline>+  A  ++ + LEK    RLGV  IDT  N  + YR +ERF   ST K +AA  +L+Q+      LN+ +     DLV+Y+P+ EKHV+  M L E++ AA++ SDNTA N L  ++GGP G     R +GD     +R E  LN AIPGD RDT+T +A+A  L+  T+G+AL   +R  L  W+KGN TG   IRAG+PT W VGDK+G+G YGT NDIAV+WP   AP++++   ++ ++ A     ++A A ++I +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|P30897.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Carbenicillinase; Flags: Precursor [Proteus mirabilis]</Hit_def>
+  <Hit_accession>P30897</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.7376e-69</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGT-MTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>CLTLSLNANA----TDSVLEAVTNAETELGARIGLAAHDLETGKRWEHKSNERFPLSSTFKTLACANVLQRVDLGKERIDRVVRFSESNLVTYSPVTEKHVGKKGMSLAELCQATLSTSDNSAANFILQAIGGPKALTKFLRSIGDDTTRLDRWEPELNEAVPGDKRDTTTPIAMVTTLEKLLIDETLSIKSRQQLESWLKGNEVGDALFRKGVPSDWIVADRTGAGGYGSRAITAVMWPPNRKPIVAALYITETDASFEERNAVIAKIGEQIAK</Hsp_hseq>
+      <Hsp_midline>C+ L L +      T +V + +   E   G R+G+A  D     +  ++ +ERFP+ ST K +A A VL++ +  K+ +++ V    ++LV Y+P+ EKHV    M+LAEL  A L  SDN+A N ++  +GGP  +T F R+IGD+T RLDR EP LN A+PGD RDTTTP AM  TL +L +   L    R QL +WLKGN  G A  R G+P+ W V D+TG+GGYG+    AV+WP  R P+V   Y T+   + E R  V+A     IA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|P14559.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Streptomyces albus G]</Hit_def>
+  <Hit_accession>P14559</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>3.30797e-68</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>QQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPV-----EIKPADLVNYNPIAEKHV-NGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ERRLAGLERASGARLGVYAYDTGSGRTVAYRADELFPMCSVFKTLSSAAVLRDLDRNGEFLSRRILYTQDDVEQADGAGPETGKPQNLANAQLTVEELCEVSITASDNCAANLMLRELGGPAAVTRFVRSLGDRVTRLDRWEPELNSAEPGRVTDTTSPRAITRTYGRLVLGDALNPRDRRLLTSWLLANTTSGDRFRAGLPDDWTLGDKTGAGRYGTNNDAGVTWPPGRAPIVLTVLTAKTEQDAARDDGLVADAARVLAETL</Hsp_hseq>
+      <Hsp_midline>+++LA LE++SG RLGV   DT     V YR DE FPMCS  K +++AAVL+  +   + L++ +     +++ AD         +++ N  +T+ EL   ++  SDN A N ++ +LGGP  VT F R++GD   RLDR EP LN+A PG   DTT+PRA+ +T  +L LG AL    R  L +WL  NTT     RAGLP  WT+GDKTG+G YGT ND  V WP GRAP+VL     + +Q+A     ++A AAR++AE L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>sp|P96465.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase L2; AltName: Full=Penicillinase; Flags: Precursor [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>P96465</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>4.67296e-68</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>SAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWP-QGRAPLVLVTYFTQPQQNAESRRDVLASAARI</Hsp_qseq>
+      <Hsp_hseq>SAPTDAALTAATD-FAALEKAVRGRFGVTLLDTASGRRIGHRQDERFPMCSTFKSVLAATVLSQAERQPALLDTRVPVRDADLLSHAPVTRRHAGKDMTVRDLCRATIITSDNTAANLLFGVVGGPPAVTAFLRSIGDAVSRTDRLEPELNSFAKGDPRDTTTPAAMAATLQRVVLGEVLQLASRQQLADWLIDNETGDACLRAGLGKLWRVRDKTGSNGEDARNDIAVLWPVAGGAPWVLTAYLQAGAISYEQRATVLAQVGRI</Hsp_hseq>
+      <Hsp_midline>SAP  A  +A     AALEK+  GR GV L+DTA   ++ +R DERFPMCST K + AA VL Q+E Q  LL+  V ++ ADL+++ P+  +H    MT+ +L  A +  SDNTA N L   +GGP  VTAF R+IGD   R DR EP LN+   GDPRDTTTP AMA TL+++ LG  L    R QL  WL  N TG A +RAGL   W V DKTGS G    NDIAV+WP  G AP VL  Y      + E R  VLA   RI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>sp|P00808.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Contains: RecName: Full=Large exopenicillinase; Contains: RecName: Full=Small exopenicillinase; Flags: Precursor [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>P00808</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>3.8163e-67</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>EKTEMKDDFAKLEEQFDAKLGIFALDTGTNRTVAYRPDERFAFASTIKALTVGVLLQQKSIED--LNQRITYTRDDLVNYNPITEKHVDTGMTLKELADASLRYSDNAAQNLILKQIGGPESLKKELRKIGDEVTNPERFEPELNEVNPGETQDTSTARALVTSLRAFALEDKLPSEKRELLIDWMKRNTTGDALIRAGVPDGWEVADKTGAASYGTRNDIAIIWPPKGDPVVLAVLSSRDKKDAKYDDKLIAEATKVVMKAL</Hsp_hseq>
+      <Hsp_midline>+ + ++   A LE+    +LG+  +DT  N  V YR DERF   ST K +    +L+Q   +   LNQ +     DLVNYNPI EKHV+  MTL EL+ A+L+YSDN A N ++ Q+GGP  +    R IGDE    +R EP LN   PG+ +DT+T RA+  +LR   L   L   +R  L+ W+K NTTG A IRAG+P  W V DKTG+  YGT NDIA+IWP    P+VL    ++ +++A+    ++A A +++ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>sp|Q44056.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase AER-1; AltName: Full=Penicillinase; Flags: Precursor [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>Q44056</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>8.30299e-67</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYA-QTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVN-GTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>CVVASFIPTPVFALDTTKLIQAVQSEESALHARVGMTVFDSNTGTTWNYRGDERFPLNSTHKTFSCAALLAKVDGKSLSLGQSVSISKEMLVTYSPITEKSLSPETVTFGKICQAAVSYSDNTAANVVFDAIGGATGFNAYMRSIGDEETQLDRKEPELNEGTPGDVRDTTTPNAMVNSLRKILLGDALSASSRSQLTQWMLDDQVAGALLRASLPSDWKIADKTGAGGYGSRSIVAVIWPPSKQPLVVGIYITQTKASMQASNQAIARIGVVLKD</Hsp_hseq>
+      <Hsp_midline>C+       P++A  T+ + Q + + E +   R+G+ + D+   T   YRGDERFP+ ST K  + AA+L + + +   L Q V I    LV Y+PI EK ++  T+T  ++  AA+ YSDNTA N +   +GG  G  A+ R+IGDE  +LDR EP LN   PGD RDTTTP AM  +LR++ LG AL  + R+QL  W+  +    A +RA LP+ W + DKTG+GGYG+ + +AVIWP  + PLV+  Y TQ + + ++    +A    ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>sp|P16897.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase PSE-4; AltName: Full=Beta-lactamase CARB-1; AltName: Full=Carbenicillinase 1; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P16897</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>9.34909e-67</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LLGSAPLYAQTSA---VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>LLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNGEYWDYNGNQRFPLTSTFKTIACAKLLYDAEQGKVNPNSTVEIKKADLVTYSPVIEKQVGQAITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQIGDKETRLDRIEPDLNEGKLGDLRDTTTPKAIASTLNKFLFGSALSEMNQKKLESWMVNNQVTGNLLRSVLPAGWNIADRSGAGGFGARSITAVVWSEHQAPIIVSIYLAQTQASMEERNDAIVKIGHSIFD</Hsp_hseq>
+      <Hsp_midline>LL  + ++A +S    V+Q + A+E S   R+GV+++DT +     Y G++RFP+ ST K +A A +L  +E  K   N  VEIK ADLV Y+P+ EK V   +TL +   A +  SDNTA N +++ +GGP GVT F R IGD+  RLDR EP LN    GD RDTTTP+A+A TL +   G AL E  + +L +W+  N      +R+ LP  W + D++G+GG+G  +  AV+W + +AP+++  Y  Q Q + E R D +      I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>sp|P37322.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CARB-3; AltName: Full=Carbenicillinase 3; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P37322</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>4.74777e-66</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LLGSAPLYAQTSA---VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>LLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNGEYWDYNGNQRFPLTSTFKTIACAKLLYDAEQGKVNPNSTVEIKKADLVTYSPVIEKQVGQAITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQIGDKETRLDRIEPDLNEGKLGDLRDTTTPKAIASTLNKLLFGSALSEMNQKKLESWMVNNQVTGNLLRSVLPAGWNIADRSGAGGFGARSITAVVWSEHQAPIIVSIYLAQTQASMAERNDAIVKIGHSIFD</Hsp_hseq>
+      <Hsp_midline>LL  + ++A +S    V+Q + A+E S   R+GV+++DT +     Y G++RFP+ ST K +A A +L  +E  K   N  VEIK ADLV Y+P+ EK V   +TL +   A +  SDNTA N +++ +GGP GVT F R IGD+  RLDR EP LN    GD RDTTTP+A+A TL +L  G AL E  + +L +W+  N      +R+ LP  W + D++G+GG+G  +  AV+W + +AP+++  Y  Q Q +   R D +      I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>sp|P35391.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Streptomyces badius]</Hit_def>
+  <Hit_accession>P35391</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>8.54101e-66</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>LEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLI-AQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGG-YGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>LEREFDARLGVYAIDTGTGREVTHNDRARFAYHSTFKALQAAVVL--STYSLDGLDKRVTYTREDLVAHSPVTEKHVDTGMTLKELCDASVRYSDNTAANLLFDPRAAGPKGLDASLEKLGDDITRMDREEPELSRWVPGEKRDTSTPRALAEDLRAFVLGKALRAPERAQLTTWLRTNTTGDAVIRAGVPENWVVGDKTGTGSYYGARNDIAVVWPPDSAPIVIAILSHRGTKDAEPDDELIAEAASVVVDSL</Hsp_hseq>
+      <Hsp_midline>LE+    RLGV  IDT    +V +    RF   ST K + AA VL  S      L++ V     DLV ++P+ EKHV+  MTL EL  A+++YSDNTA N L   +  GP G+ A    +GD+  R+DR EP L+  +PG+ RDT+TPRA+A+ LR   LG AL   +RAQL TWL+ NTTG A IRAG+P +W VGDKTG+G  YG  NDIAV+WP   AP+V+     +  ++AE   +++A AA ++ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>sp|Q03170.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase PSE-1; AltName: Full=Beta-lactamase CARB-2; AltName: Full=Carbenicillinase 2; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>Q03170</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>1.20509e-65</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LLGSAPLYAQTSA---VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>LLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNGEYWDYNGNQRFPLTSTFKTIACAKLLYDAEQGKVNPNSTVEIKKADLVTYSPVIEKQVGQAITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQIGDKETRLDRIEPDLNEGKLGDLRDTTTPKAIASTLNKFLFGSALSEMNQKKLESWMVNNQVTGNLLRSVLPAGWNIADRSGAGGFGARSITAVVWSEHQAPIIVSIYLAQTQASMAERNDAIVKIGHSIFD</Hsp_hseq>
+      <Hsp_midline>LL  + ++A +S    V+Q + A+E S   R+GV+++DT +     Y G++RFP+ ST K +A A +L  +E  K   N  VEIK ADLV Y+P+ EK V   +TL +   A +  SDNTA N +++ +GGP GVT F R IGD+  RLDR EP LN    GD RDTTTP+A+A TL +   G AL E  + +L +W+  N      +R+ LP  W + D++G+GG+G  +  AV+W + +AP+++  Y  Q Q +   R D +      I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>sp|P81781.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CARB-6; AltName: Full=Carbenicillinase 6; Flags: Precursor [Vibrio cholerae]</Hit_def>
+  <Hit_accession>P81781</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>1.81864e-65</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LLGSAPLYAQTSA---VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>LLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNGEYWDYNGNQRFPLTSTFKTIACAKLLYDAEQGKVNPNSTVEIKKADLVTYSPVIEKQVGQAITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQIGDKETRLDRIEPDLNEGKLGDLRDTTTPKAIASTLNQLLFGSTLSEASQKKLESWMVNNQVTGNLLRSVLPVKWSIADRSGAGGFGARSITAIVWSEEKKTIIVSIYLAQTEASMAERNDAIVKIGRSIFE</Hsp_hseq>
+      <Hsp_midline>LL  + ++A +S    V+Q + A+E S   R+GV+++DT +     Y G++RFP+ ST K +A A +L  +E  K   N  VEIK ADLV Y+P+ EK V   +TL +   A +  SDNTA N +++ +GGP GVT F R IGD+  RLDR EP LN    GD RDTTTP+A+A TL QL  G  L E  + +L +W+  N      +R+ LP  W++ D++G+GG+G  +  A++W + +  +++  Y  Q + +   R D +    R I E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>sp|P14560.2|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase 2; AltName: Full=Penicillinase; Flags: Precursor [Streptomyces cacaoi]</Hit_def>
+  <Hit_accession>P14560</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>7.39955e-65</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>KLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGG-YGTTNDIAVIW-PQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ELKALEDEFDVRLGVYAVDTGSGREVAYRDGERFPYNSTFKALECGAVLDKHTDRE--MDRVVKYSEDDLVDNSPVTEKHVEDGMTLTALCDAAVRYSDNTAANLLFETVGGPKGLDKTLEGLGDHVTRMERVEPFLSRWEPGSKRDTSTPRAFAKDLRAYVLGDVLAEGDRKQLTTWLRNNTTGDGLIRAGVRQGWVVGDKTGTGSYYGARNDMAVVWRPDGR-PLVLNVMVHGHTKDAELDSELIARATEVVADRL</Hsp_hseq>
+      <Hsp_midline>+L ALE     RLGV  +DT    +V YR  ERFP  ST K +   AVL +   ++  +++ V+    DLV+ +P+ EKHV   MTL  L  AA++YSDNTA N L   +GGP G+      +GD   R++R EP L+   PG  RDT+TPRA A+ LR   LG  L E  R QL TWL+ NTTG   IRAG+   W VGDKTG+G  YG  ND+AV+W P GR PLVL        ++AE   +++A A  ++A+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>sp|P35393.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Streptomyces lavendulae]</Hit_def>
+  <Hit_accession>P35393</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>6.92306e-64</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPV-----EIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>VLRQLRALEQEHSARLGVYARDTATGRTVLHRAEERFPMCSVFKTLAVAAVLRDLDRDGEFLATRLFYTEQEVKDSGFGPVTGLPENLAAG-MTVERLCAAAICQSDNAAANLLLRELGGPEAVTRFCRSVGDRTTRLDRWEPELNSAEPGRLTDTTTPRAIGATYGELVLGDALAPRDRERLTGWLLANTTSTERFRKGLPADWTLGDKTGGGAYGTNNDAGVTWPPHRPPVVMVVLTTHDRPDAVADNPLVAKTAALLASAL</Hsp_hseq>
+      <Hsp_midline>V ++L ALE+    RLGV   DTA    VL+R +ERFPMCS  K +A AAVL+  +   + L   +     E+K +       + E    G MT+  L AAA+  SDN A N L+ +LGGP  VT F R++GD T RLDR EP LN+A PG   DTTTPRA+  T  +L LG AL    R +L  WL  NTT     R GLP  WT+GDKTG G YGT ND  V WP  R P+V+V   T  + +A +   ++A  A ++A  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>sp|A5U493.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Ambler class A beta-lactamase; Flags: Precursor [Mycobacterium tuberculosis H37Ra] &gt;sp|P0A5I7.1| RecName: Full=Beta-lactamase; AltName: Full=Ambler class A beta-lactamase; Flags: Precursor [Mycobacterium tuberculosis variant bovis AF2122/97] &gt;sp|P9WKD2.1| RecName: Full=Beta-lactamase; AltName: Full=Ambler class A beta-lactamase; Flags: Precursor [Mycobacterium tuberculosis CDC1551] &gt;sp|P9WKD3.1| RecName: Full=Beta-lactamase; AltName: Full=Ambler class A beta-lactamase; Flags: Precursor [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>A5U493</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>1.94108e-63</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTA----FARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQP--QQNAESRRDVLASAARIIA</Hsp_qseq>
+      <Hsp_hseq>LADRFAELERRYDARLGVYVPATGTTAAIEYRADERFAFCSTFKAPLVAAVLHQNPLTH--LDKLITYTSDDIRSISPVAQQHVQTGMTIGQLCDAAIRYSDGTAANLLLADLGGPGGGTAAFTGYLRSLGDTVSRLDAEEPELNRDPPGDERDTTTPHAIALVLQQLVLGNALPPDKRALLTDWMARNTTGAKRIRAGFPADWKVIDKTGTGDYGRANDIAVVWSPTGVPYVVAVMSDRAGGGYDAEPREALLAEAATCVA</Hsp_hseq>
+      <Hsp_midline>+  + A LE+    RLGV +  T     + YR DERF  CST K    AAVL Q+      L++ +     D+ + +P+A++HV   MT+ +L  AA++YSD TA N L+A LGGPGG TA    + R++GD   RLD  EP LN   PGD RDTTTP A+A  L+QL LG+AL   +RA L  W+  NTTGA  IRAG P  W V DKTG+G YG  NDIAV+W     P V+     +     +AE R  +LA AA  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>sp|Q03680.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase 1; AltName: Full=Penicillinase; Flags: Precursor [Streptomyces cacaoi]</Hit_def>
+  <Hit_accession>Q03680</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>2.14915e-62</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>YAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPAD-LVNY--------NPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGH----ALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>HGSADAHEKEFRALEKKFDAHPGVYAIDTRDGQEITHRADERFAYGSTFKALQAGAILAQVLRDGREVRRGAEADGMDKVVHYGQDAILPNSPVTEKHVADGMSLRELCDAVVAYSDNTAANLLFDQLGGRRGSTRVLKQLGDHTTSMDRYEQELGSAVPGDPRDTSTPRAFAEDLRAFAVEDGEKAALAPNDREQLNDWMSGSRTGDALIRAGVPKDWKVEDKSGQVKYGTRNDIAVVRPPGRAPIVVSVMSHGDTQDAEPHDELVAEAGLVVADGL</Hsp_hseq>
+      <Hsp_midline>+    A +++  ALEK      GV  IDT D  ++ +R DERF   ST K + A A+L Q     + + +  E    D +V+Y        +P+ EKHV   M+L EL  A + YSDNTA N L  QLGG  G T   + +GD T  +DR E  L +A+PGDPRDT+TPRA A+ LR   +      AL    R QL  W+ G+ TG A IRAG+P  W V DK+G   YGT NDIAV+ P GRAP+V+        Q+AE   +++A A  ++A+GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|P05192.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P05192</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.45637e-60</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPL--YAQTSAVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDV</Hsp_qseq>
+      <Hsp_hseq>CVISLLATLPLVVYAGPQPLEQ-IKQSESQLSGRVGMVEMDLANGRTLAAWRADERFPMVSTFKVLLCGAVLARVDAGLEQLDRRIHYRQQDLVDYSPVSEKHLVDGMTIGELCAAAITLSDNSAGNLLLATVGGPAGLTAFLRQIGDNVTRLDRWETALNEALPGDARDTTTPASMAATLRKLLTAQHLSARSQQQLLQWMVDDRVAGPLIRAVLPPGWFIADKTGAGERGARGIVALLGPDGKPERIVVIYLRDTPASMAERNQHI</Hsp_hseq>
+      <Hsp_midline>C+  LL + PL  YA    ++Q +   E    GR+G+  +D A+  T   +R DERFPM ST KV+   AVL + +   + L++ +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IRA LP  W + DKTG+G  G    +A++ P G+   ++V Y    P   AE  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>sp|P0AD63.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-1; AltName: Full=PIT-2; Flags: Precursor [Escherichia coli] &gt;sp|P0AD64.1| RecName: Full=Beta-lactamase SHV-1; AltName: Full=PIT-2; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P0AD63</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>2.49962e-60</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGAGERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+G  G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>sp|P35392.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Streptomyces fradiae]</Hit_def>
+  <Hit_accession>P35392</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>5.69998e-60</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVN---YNPIA---EKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAES</Hsp_qseq>
+      <Hsp_hseq>VEGRLRALERTHDARLGAFAYDTGTGRTVAYRADERFPIASMFKTIAVAAVLRDLDRDGEVLARRVHYT-ADYVKRSGYSPVTGLPENVANG-MTVAELCEATLTRSDNTAANLLLRDLGGPTAVTRFCRSVGDHVTRLDRWEPELNSAEPGRVTDTTSPRAIGRTYGRLILGDLLAAHDRERLTRWMLDNRTSDERFRKGLPADWLLADKTGGGDYGTNNDAGVAWPPGRPPVVLAVQTTRFTPDAEA</Hsp_hseq>
+      <Hsp_midline>V+ +L ALE++   RLG    DT     V YR DERFP+ S  K +A AAVL+  +   ++L + V    AD V    Y+P+    E   NG MT+AEL  A L  SDNTA N L+  LGGP  VT F R++GD   RLDR EP LN+A PG   DTT+PRA+ +T  +L LG  L    R +L  W+  N T     R GLP  W + DKTG G YGT ND  V WP GR P+VL    T+   +AE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>sp|Q9S424.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-13; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>Q9S424</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.43921e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTSAVQQKLAALEKSSG---GRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASP--QPLEQIKQSESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGAAERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S   Q L  +++S     GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>sp|P0A3M1.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-5; Flags: Precursor [Klebsiella pneumoniae] &gt;sp|P0A3M2.1| RecName: Full=Beta-lactamase SHV-5; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P0A3M1</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.45485e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGASKRGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>sp|O08337.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-8; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>O08337</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.50277e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARNTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGAGERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD R+TTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+G  G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>sp|P0A9Z8.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-2; AltName: Full=SHV-2A; Flags: Precursor [Klebsiella pneumoniae] &gt;sp|P0AA00.1| RecName: Full=Beta-lactamase SHV-2; AltName: Full=SHV-2A; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>P0A9Z8</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.60341e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTSAVQQKLAALEKSSG---GRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASP--QPLEQIKQSESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGASERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S   Q L  +++S     GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>sp|P30896.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-3; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P30896</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.71079e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQLQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGASERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>sp|P0A9Z7.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-2; AltName: Full=SHV-2A; Flags: Precursor [Escherichia coli] &gt;sp|P0A9Z9.1| RecName: Full=Beta-lactamase SHV-2; AltName: Full=SHV-2A; Flags: Precursor [Klebsiella pneumoniae subsp. ozaenae]</Hit_def>
+  <Hit_accession>P0A9Z7</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.92667e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGASERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>sp|Q848S4.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-46; Flags: Precursor [Klebsiella oxytoca]</Hit_def>
+  <Hit_accession>Q848S4</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>2.90461e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLNSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGASKRGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>sp|P67918.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase ROB-1; Flags: Precursor [Haemophilus influenzae] &gt;sp|P67919.1| RecName: Full=Beta-lactamase ROB-1; Flags: Precursor [Mannheimia haemolytica] &gt;sp|P67920.1| RecName: Full=Beta-lactamase ROB-1; Flags: Precursor [Actinobacillus pleuropneumoniae]</Hit_def>
+  <Hit_accession>P67918</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>3.7813e-59</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>GSAPLY--AQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>ASAPVQQSATQATFQQTLANLEQQYQARIGVYVWDTETGHSLSYRADERFAYASTFKALLAGAVL-QSLPEKDL-NRTISYSQKDLVSYSPETQKYVGKGMTIAQLCEAAVRFSDNSATNLLLKELGGVEQYQRILRQLGDNVTHTNRLEPDLNQAKPNDIRDTSTPKQMAMNLNAYLLGNTLTESQKTILWNWLDNNATGNPLIRAATPTSWKVYDKSGAGKYGVRNDIAVVRIPNRKPIVMAIMSTQFTEEAKFNNKLVEDAAKQVFHTL</Hsp_hseq>
+      <Hsp_midline> SAP+   A  +  QQ LA LE+    R+GV + DT     + YR DERF   ST K + A AVL QS  +K L N+ +     DLV+Y+P  +K+V   MT+A+L  AA+++SDN+A N L+ +LGG        R +GD     +R EP LN A P D RDT+TP+ MA  L    LG+ L E+Q+  L  WL  N TG   IRA  PTSW V DK+G+G YG  NDIAV+    R P+V+    TQ  + A+    ++  AA+ +   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>sp|Q9S169.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-24; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>Q9S169</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>4.104e-59</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARGTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGAGERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD R TTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+G  G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>sp|P10509.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Kitasatospora aureofaciens]</Hit_def>
+  <Hit_accession>P10509</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>7.12024e-59</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>YAQTS--------AVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEI--KPADLVNYNPIAEK--HVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGG-YGTTNDIAVIWPQGRAPLVLVTYFTQ</Hsp_qseq>
+      <Hsp_hseq>YASTSTAKAPAAEGISGRLRALEKQYAARLGVFALDTGTGAGRSYRAGERFPMCSVFKALAAAAVLRDVDARREFLTKRIHYTEKFVKDAGYIPVTGKPENIAGGMTGAELCAAAVSESDNGAGNLLLRELDGPTGITRFCRSLGDTTTRLDRWEPALNSAEPDRVTDTTSPGAIGRTFGRLIVGSALRAGDRKRLTGWLVANTTNRPTFRAGLPDDWVLADKTGGGEQYGVANDVGVVQPPGRAPLVLSVLSTK</Hsp_hseq>
+      <Hsp_midline>YA TS         +  +L ALEK    RLGV  +DT       YR  ERFPMCS  K +AAAAVL+  + +++ L + +    K      Y P+  K  ++ G MT AEL AAA+  SDN A N L+ +L GP G+T F R++GD T RLDR EP LN+A P    DTT+P A+ +T  +L +G AL    R +L  WL  NTT   + RAGLP  W + DKTG G  YG  ND+ V+ P GRAPLVL    T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>sp|Q9AHN9.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-29; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>Q9AHN9</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.88166e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTSAVQQKLAALEKSSG---GRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASP--QPLEQIKQSESQLSGSVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGAAERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S   Q L  +++S     G +G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>sp|Q59517.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Mycolicibacterium fortuitum]</Hit_def>
+  <Hit_accession>Q59517</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.1952e-58</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIW-PQG-RAPLVLVTYFTQPQQNAESRRDVL</Hsp_qseq>
+      <Hsp_hseq>IDDQLAELERRDNVLIGLYAANLQSGRRITHRLDEMFAMCSTFKGYAAARVLQMAEHGEISLDNRVFVDADALVPNSPVTEARAGAEMTLAELCQAALQRSDNTAANLLLKTIGGPAAVTAFARSVGDERTRLDRWEVELNSAIPGDPRDTSTAAALAVGYRAILAGDALSPPQRGLLEDWMRANQT--SSMRAGLPEGWTTADKTGSGDYGSTNDAGIAFGPDGQRLLLVMMTRSQAHDPKAENLRPLI</Hsp_hseq>
+      <Hsp_midline>+  +LA LE+     +G+   +     ++ +R DE F MCST K  AAA VL+ +E  +  L+  V +    LV  +P+ E      MTLAEL  AALQ SDNTA N L+  +GGP  VTAFAR++GDE  RLDR E  LN+AIPGDPRDT+T  A+A   R +  G AL   QR  L  W++ N T  +S+RAGLP  WT  DKTGSG YG+TND  + + P G R  LV++T        AE+ R ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>sp|Q51355.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase CARB-4; AltName: Full=Carbenicillinase 4; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>Q51355</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>8.46798e-58</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>LLGSAPLYAQTSA---VQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAE</Hsp_qseq>
+      <Hsp_hseq>LLIPSMVFANSSKFQQVEQDAKVIEASLSAHIGISVLDTQTGEYWDYNGNQRFPLTSTFKTIACAKLLYDAEQGEINPKSTIEIKKADLVTYSPVIEKQVGQAITLDDACFATMTTSDNAAANIILNALGGPESVTDFLRQIGDKETRLDRIEPELNEGKLGDLRDTTTPNAIVNTLNELLFGSTLSQDGQKKLEYWMVNNQVTGNLLRSVLPEGWNIADRSGAGGFGARSITAVVWSEAQSPIIVSIYLAQTEASIADRNDAIVKIGRSIFE</Hsp_hseq>
+      <Hsp_midline>LL  + ++A +S    V+Q    +E S    +G++++DT       Y G++RFP+ ST K +A A +L  +E  +      +EIK ADLV Y+P+ EK V   +TL +   A +  SDN A N ++  LGGP  VT F R IGD+  RLDR EP LN    GD RDTTTP A+  TL +L  G  L +  + +L  W+  N      +R+ LP  W + D++G+GG+G  +  AV+W + ++P+++  Y  Q + +   R D +    R I E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>sp|P37323.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-4; AltName: Full=Ceftazidimase 5; Short=CAZ-5 [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P37323</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>9.54841e-58</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>EKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQLQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGASKRGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>sp|P96348.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-6; Flags: Precursor [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>P96348</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>2.22737e-57</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>LLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYF</Hsp_qseq>
+      <Hsp_hseq>LLATLPLAVHASPQPLEQIKLS--ESQLSGRVGMIEMDLASGRTLTAWRADERFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARATTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGAGERGARGIVALLGPNNKAERIVVIYL</Hsp_hseq>
+      <Hsp_midline>LL + PL    S     Q KL+  E    GR+G+  +D A   T   +R DERFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD R TTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+G  G    +A++ P  +A  ++V Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>sp|P14171.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Rhodobacter capsulatus]</Hit_def>
+  <Hit_accession>P14171</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>4.10134e-57</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>AVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>ALSETVARIEEQLGARVGLSLMETGTGWSWSHREDELFLMNSTVKVPVCGAILARWDAGRLSLSDALPVRKADLVPYAPVTETRVGGNMTLDELCLAAIDMSDNVAANILIGHLGGPEAVTQFFRSVGDPTSRLDRIEPKLNDFASGDERDTTSPAAMSETLRALLLGDVLSPEARGKLAEWMRHGGVTGALLRAEAEDAWLILDKSGSGSH-TRNLVAVIQPEGGAPWIATMFISDTDAEFEVRNEALKDLGRAV</Hsp_hseq>
+      <Hsp_midline>A+ + +A +E+  G R+G++L++T       +R DE F M ST KV    A+L + +  +  L+  + ++ ADLV Y P+ E  V G MTL EL  AA+  SDN A N LI  LGGP  VT F R++GD T RLDR EP LN    GD RDTT+P AM++TLR L LG  L    R +L  W++      A +RA    +W + DK+GSG + T N +AVI P+G AP +   + +      E R + L    R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>sp|Q93LM8.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase SHV-34; Flags: Precursor [Escherichia coli]</Hit_def>
+  <Hit_accession>Q93LM8</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>4.59371e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPLYAQTS---AVQQKLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLAVHASPQPLEQIKLS--ESQLSGSVGMIEMDLASGRTLTAWRADGRFPMMSTFKVVLCGAVLARVDAGDEQLERKIHYRQQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLATVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTPASMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGPLIRSVLPAGWFIADKTGASERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIGAALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL    S     Q KL+  E    G +G+  +D A   T   +R D RFPM ST KV+   AVL + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+A +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTTP +MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+   G    +A++ P  +A  ++V Y    P   AE  + +    A +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>sp|P62593.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase TEM; AltName: Full=IRT-4; AltName: Full=Penicillinase; AltName: Full=TEM-1; AltName: Full=TEM-16/CAZ-7; AltName: Full=TEM-2; AltName: Full=TEM-24/CAZ-6; AltName: Full=TEM-3; AltName: Full=TEM-4; AltName: Full=TEM-5; AltName: Full=TEM-6; AltName: Full=TEM-8/CAZ-2; Flags: Precursor [Escherichia coli] &gt;sp|P62594.1| RecName: Full=Beta-lactamase TEM; AltName: Full=Penicillinase; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P62593</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>8.13802e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSA-PLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVL--YRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLAS</Hsp_qseq>
+      <Hsp_hseq>ALIPFFAAFCLPVFAHPETLV-KVKDAEDQLGARVGYIELDL-NSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAE</Hsp_hseq>
+      <Hsp_midline>A IP       P++A    +  K+   E   G R+G   +D  ++ ++L  +R +ERFPM ST KV+   AVL + +  ++ L + +     DLV Y+P+ EKH+   MT+ EL +AA+  SDNTA N L+  +GGP  +TAF   +GD   RLDR EP LN AIP D RDTT P AMA TLR+L  G  L    R QL+ W++ +      +R+ LP  W + DK+G+G  G+   IA + P G+   ++V Y T  Q   + R   +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>sp|P18251.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase Ohio-1; Flags: Precursor [Enterobacter cloacae]</Hit_def>
+  <Hit_accession>P18251</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>2.58116e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>CIPLLLGSAPL--YAQTSAVQQ-KLAALEKSSGGRLGVALIDTAD-NTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQ-PQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>CIISLLATLPLRVHAGPQPLEQIKLS--ESQLSGSVGMIEMDLARPGTLTAWRADERFPMMSTFKVVLCGAGLARVDAGDEQLERKIHYRRQDLVDYSPVSEKHLADGMTVGELCAAAITMSDNSAANLLLPAVGGPAGLTAFLRQIGDNVTRLDRWETELNEALPGDARDTTTARSMAATLRKLLTSQRLSARSQRQLLQWMVDDRVAGRLIRSVLPAGWFIADKTGAGERGARGIVALLGPNNKAERIVVIYLRDTPASMAERNQQIAGIAGALI</Hsp_hseq>
+      <Hsp_midline>CI  LL + PL  +A    ++Q KL+  E    G +G+  +D A   T   +R DERFPM ST KV+   A L + +   + L + +  +  DLV+Y+P++EKH+   MT+ EL AAA+  SDN+A N L+  +GGP G+TAF R IGD   RLDR E  LN A+PGD RDTTT R+MA TLR+L     L    + QL+ W+  +      IR+ LP  W + DKTG+G  G    +A++ P  +A  ++V Y    P   AE  + +   A  +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>sp|Q48406.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase TEM-12; Flags: Precursor [Klebsiella oxytoca]</Hit_def>
+  <Hit_accession>Q48406</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>1.0045e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>ACIPLLLGSA-PLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVL--YRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQQNAESRRDVLA</Hsp_qseq>
+      <Hsp_hseq>ALIPFFAAFCLPVFAHPETLV-KVKDAEDQLGARVGYIELDL-NSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDSWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA</Hsp_hseq>
+      <Hsp_midline>A IP       P++A    +  K+   E   G R+G   +D  ++ ++L  +R +ERFPM ST KV+   AVL + +  ++ L + +     DLV Y+P+ EKH+   MT+ EL +AA+  SDNTA N L+  +GGP  +TAF   +GD   RLD  EP LN AIP D RDTT P AMA TLR+L  G  L    R QL+ W++ +      +R+ LP  W + DK+G+G  G+   IA + P G+   ++V Y T  Q   + R   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>sp|Q06650.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Streptomyces cellulosae]</Hit_def>
+  <Hit_accession>Q06650</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>4.80772e-51</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>AQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVN--YNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGG-YGTTNDIAVIWPQGRAPLVLVTYFTQPQ</Hsp_qseq>
+      <Hsp_hseq>SENPAAVRRLRALEREHQARIGVFALNLATGASLLHRAHELFPMCSVFKTLAAAAVLRDLDHDGSQLARVIRYTEADVTKSGHAPVTKDHIDTGMTIRDLCDATIRYSDNCAANLLLRELGGPTAVTRFCRSLGDPVTRLDRWEPELNSGEPDRRTDTTSPYAIARTYQRLVLGNALNRPDRALLTDWLLRNTTTLTTFRTGLPKGWTVADKSGGGDTYGTRNEAAIAWTPDGAPVLLTALTHKPS</Hsp_hseq>
+      <Hsp_midline>++  A  ++L ALE+    R+GV  ++ A    +L+R  E FPMCS  K +AAAAVL+  +     L + +    AD+    + P+ + H++  MT+ +L  A ++YSDN A N L+ +LGGP  VT F R++GD   RLDR EP LN+  P    DTT+P A+A+T ++L LG+AL    RA L  WL  NTT   + R GLP  WTV DK+G G  YGT N+ A+ W    AP++L     +P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>sp|P00807.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; AltName: Full=Penicillinase; Flags: Precursor [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>P00807</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.79708e-45</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>TSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSG-GYGTTNDIAVIWPQGRA-PLVLVTYFTQPQQNAESRRDVLAS</Hsp_qseq>
+      <Hsp_hseq>NSSHAKELNDLEKKYNAHIGVYALDTKSGKEVKFNSDKRFAYASTSKAINSAILLEQVPYNK--LNKKVHINKDDIVAYSPILEKYVGKDITLKALIEASMTYSDNTANNKIIKEIGGIKKVKQRLKELGDKVTNPVRYEIELNYYSPKSKKDTSTPAAFGKTLNKLIANGKLSKENKKFLLDLMLNNKSGDTLIKDGVPKDYKVADKSGQAITYASRNDVAFVYPKGQSEPIVLVI-FTNKDNKSDKPNDKLIS</Hsp_hseq>
+      <Hsp_midline> S+  ++L  LEK     +GV  +DT    +V +  D+RF   STSK + +A +L+Q    K  LN+ V I   D+V Y+PI EK+V   +TL  L  A++ YSDNTA NK+I ++GG   V    + +GD+     R E  LN   P   +DT+TP A  +TL +L     L +  +  L+  +  N +G   I+ G+P  + V DK+G    Y + ND+A ++P+G++ P+VLV  FT     ++   D L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>sp|Q59514.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase BRO-1; AltName: Full=Penicillinase; Flags: Precursor [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>Q59514</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>4.64691e-40</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>SAVQQKLAALEKSSGGRLGVALIDTADNTQVL-YRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHV--NGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGYGTTNDIAVIWPQGRAPLVLVTYFTQPQ</Hsp_qseq>
+      <Hsp_hseq>NKLKEILPIWENKFNAKIGMTII--ADNGELSSHRGNEYFPVNSTIKAFIASHILLLVDKEKLDLNEKIIIKESDLIEYSPVCKKYFDENKPISISELCEATITLSDNGSANILLDKIGGLTAFNQFLKEIGADMV-LANNEPLLNRSHYGETSDTAKPIPYTKSLKALIVGNILSNQSKEQLITWLINDKVADNLLRKYLPKNWRIGDKTGTGS-ESKNIIAVIWNENNKPYFISLFITQPH</Hsp_hseq>
+      <Hsp_midline>+ +++ L   E     ++G+ +I  ADN ++  +RG+E FP+ ST K   A+ +L   + +K  LN+ + IK +DL+ Y+P+ +K+   N  ++++EL  A +  SDN + N L+ ++GG      F + IG +   L   EP LN +  G+  DT  P    ++L+ L +G+ L    + QL+TWL  +      +R  LP +W +GDKTG+G   + N IAVIW +   P  +  + TQP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>sp|P30898.1|</Hit_id>
+  <Hit_def>RecName: Full=Beta-lactamase; Flags: Precursor [Bacteroides uniformis]</Hit_def>
+  <Hit_accession>P30898</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.39079e-18</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>QTSAVQQKLAALEKSSGGRLGVAL-IDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADL--VNYNPIAEKH--VNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTW--LKGNTTGAASIRAGLPTSWTVGDKTGSG-----GYGTTNDIA--VIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARIIAEGL</Hsp_qseq>
+      <Hsp_hseq>QMSELENRIDSLLNGKKATVGIAVWTDKGD--MLRYNDHVHFPLLSVFKFHVALAVLDKMDKQSISLDSIVSIKASQMPPNTYSPLRKKFPDQDFTITLRELMQYSISQSDNNACDILIEYAGGIKHINDYIHRLSIDSFNLSETEDGMHSSFEAVYRNWSTPSAMVRLLRTADEKELFSNKELKDFL-WQTMIDTETGANKLKGMLPAKTVVGHKTGSSDRNADGMKTADNDAGLVILPDGR-KYYIAAFVMDSYETDEDNANIIARISRMVYDAM</Hsp_hseq>
+      <Hsp_midline>Q S ++ ++ +L       +G+A+  D  D   + Y     FP+ S  K   A AVL + + Q   L+  V IK + +    Y+P+ +K    + T+TL EL   ++  SDN A + LI   GG   +  +   +  ++F L  TE  ++++     R+ +TP AM + LR           +    + W  +    TGA  ++  LP    VG KTGS      G  T ++ A  VI P GR    +  +     +  E   +++A  +R++ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>sp|P37321.1|</Hit_id>
+  <Hit_def>RecName: Full=Extended-spectrum beta-lactamase PER-1; Flags: Precursor [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>P37321</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>8.02248e-17</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>AQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVN--YNPIAEKHVNGTMTL--AELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHALGETQRAQLVTWLKGNTTGAASIRAGLPTSWTVGDKTGSGGY-----GTTNDIAVI-WPQGRAPLVLVTYFTQPQQNAESRRDVLASAAR</Hsp_qseq>
+      <Hsp_hseq>AQSPLLKEQIESIVIGKKATVGVAVWGPDDLEPLLINPFEKFPMQSVFKLHLAMLVLHQVDQGKLDLNQTVIVNRAKVLQNTWAPIMKAYQGDEFSVPVQQLLQYSVSHSDNVACDLLFELVGGPAALHDYIQSMGIKETAVVANEAQMHADDQVQYQNWTSMKGAAEILKKFEQKTQLSETSQALLWKWMVETTTGPERLKGLLPAGTVVAHKTGTSGIKAGKTAATNDLGIILLPDGR-PLLVAVFVKDSAESSRTNEAIIAQVAQ</Hsp_hseq>
+      <Hsp_midline>AQ+  +++++ ++       +GVA+    D   +L    E+FPM S  K+  A  VL Q +  K  LNQ V +  A ++   + PI + +     ++   +L   ++ +SDN A + L   +GGP  +  + +++G +   +   E  ++       ++ T+ +  A+ L++      L ET +A L  W+   TTG   ++  LP    V  KTG+ G        TND+ +I  P GR PL++  +     +++ +   ++A  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>sp|P57892.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>P57892</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.24487</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>ADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>ADVRHAGIISEESAKAALLMLDVDDAGFDYLDRKLLNAVIERFDGGPVGLDNLAAAIGEERETIEDVLEPYL</Hsp_hseq>
+      <Hsp_midline>AD+ +   I+E+     + + ++  A   Y D   +N +I +  GGP G+   A AIG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>sp|Q65UP0.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [[Mannheimia] succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65UP0</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.46139</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>ADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>ADVKNAGIISEDIAKSALSMLDIDQAGFDYLDRKLLSAVIERFDGGPVGLDNLAAAIGEERDTIEDVLEPYL</Hsp_hseq>
+      <Hsp_midline>AD+ N   I+E      +++ ++  A   Y D   ++ +I +  GGP G+   A AIG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>sp|Q04GA1.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Oenococcus oeni PSU-1]</Hit_def>
+  <Hit_accession>Q04GA1</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.37254</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRLDR-TEPTL</Hsp_qseq>
+      <Hsp_hseq>DTIDEQIVDNALNKLHVDARGLDETDLKYLNTLIHQYKGGPAGVNALASNIGEDSETVEEMVEPYL</Hsp_hseq>
+      <Hsp_midline>+ I E+ V+  +    + A  L  +D   +N LI Q  GGP GV A A  IG+++  ++   EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>sp|A6QHI3.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus str. Newman] &gt;sp|A8Z2G9.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus USA300_TCH1516] &gt;sp|Q2FG86.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus USA300] &gt;sp|Q2FXT4.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;sp|Q5HFC2.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus COL] &gt;sp|Q6GG63.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>A6QHI3</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.94891</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>KHVNGTMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>KHALG---LLQVDQHGLDYIDHKMMNCIIKQYNGGPVGLDTIAVTIGEERITIEDVYEPFL</Hsp_hseq>
+      <Hsp_midline>KH  G   L ++    L Y D+  MN +I Q  GGP G+   A  IG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>sp|A5ITG5.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus JH9] &gt;sp|A6U2A9.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus JH1] &gt;sp|A7X357.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus Mu3] &gt;sp|P66757.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus Mu50] &gt;sp|P66758.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus N315] &gt;sp|P66759.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus MW2] &gt;sp|Q6G8S8.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>A5ITG5</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.97527</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>KHVNGTMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>KHALG---LLQVDQHGLDYIDHKMMNCIIKQYNGGPVGLDTIAVTIGEERITIEDVYEPFL</Hsp_hseq>
+      <Hsp_midline>KH  G   L ++    L Y D+  MN +I Q  GGP G+   A  IG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>sp|Q2YT89.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q2YT89</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.00186</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>KHVNGTMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>KHALG---LLQVDQHGLDYIDHKMMNCIIKQYNGGPVGLDTIAVTIGEERITIEDVYEPFL</Hsp_hseq>
+      <Hsp_midline>KH  G   L ++    L Y D+  MN +I Q  GGP G+   A  IG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>sp|Q5HNR0.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus epidermidis RP62A] &gt;sp|Q8CS91.1| RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HNR0</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.52322</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>MTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>LQLLQVDQHGLDYIDHKMMNCIINQYNGGPVGLDTIAVSIGEERVTIEDVYEPFL</Hsp_hseq>
+      <Hsp_midline>+ L ++    L Y D+  MN +I Q  GGP G+   A +IG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>sp|Q49Y79.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305 = NCTC 7292]</Hit_def>
+  <Hit_accession>Q49Y79</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.13497</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>SLQLLQVDDEGLDYIDHKMMNCILEQYKGGPVGLDTIAVSIGEERVTIEDVYEPFL</Hsp_hseq>
+      <Hsp_midline>++ L ++    L Y D+  MN ++ Q  GGP G+   A +IG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>sp|Q4L6Y6.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L6Y6</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.34554</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>MTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRL-DRTEPTL</Hsp_qseq>
+      <Hsp_hseq>LQLLQVDAEGLDYIDHKMMRCIINQYDGGPVGLDTIAVSIGEERITIEDVYEPFL</Hsp_hseq>
+      <Hsp_midline>+ L ++ A  L Y D+  M  +I Q  GGP G+   A +IG+E   + D  EP L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>sp|Q8DIH3.1|</Hit_id>
+  <Hit_def>RecName: Full=Cytochrome c biogenesis protein CcsA [Thermosynechococcus vestitus BP-1]</Hit_def>
+  <Hit_accession>Q8DIH3</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.20412</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>HVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPRAMAQTLRQLTLGHAL</Hsp_qseq>
+      <Hsp_hseq>HVSVMM----LSYATLMVGSLLAIALLVVTWGQP--VNLKGSSVGTGSFRSRRPEPSLEASTGNGGTTVLTPPALQLSLQRLTLAETL</Hsp_hseq>
+      <Hsp_midline>HV+  M    LS A L      A+  L+   G P  V     ++G  +FR  R EP+L  +         TP A+  +L++LTL   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>sp|Q9K9L8.1|</Hit_id>
+  <Hit_def>RecName: Full=Glutaminase 1 [Alkalihalobacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9K9L8</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.45469</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVL</Hsp_qseq>
+      <Hsp_hseq>YTEEGTVASYIPALAKADVSTLGIAIYRGGDEQVIAGDADEKFTLQSISKVIALALAL</Hsp_hseq>
+      <Hsp_midline>Y +   V   + AL K+    LG+A+    D   +    DE+F + S SKV+A A  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>sp|Q9JJS5.2|</Hit_id>
+  <Hit_def>RecName: Full=SH3 domain-binding protein 4 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9JJS5</Hit_accession>
+  <Hit_len>961</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.86629</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>LLGSAPLYAQTSAVQQKLAALEKSSGGRLGVALIDTADNTQVLYRGDERFPMCSTSKVMAAAAVLKQSETQKQLLNQPVEIKPADLVNYNPIAEKHVN----GTMTLAELSAAALQYSDNTAMNKLIAQL------GGPGGVTAFARAIGDE-TFRLDRTEPTLNTAI</Hsp_qseq>
+      <Hsp_hseq>LLGQSPGWGQTQAVETNIVCKLDSSGG--SVQLPDTSISIHV--------------PEGHVAPGETQQISMKALLDPPLDLNSDRSTSISPVVEVKLSNLEVSTFIILEMKVSAEVKGDIFSKSTVVLQCLRSDSKEGPYAPIPLAYSYGDTIQVQLDNLEPCMYLAI</Hsp_hseq>
+      <Hsp_midline>LLG +P + QT AV+  +     SSGG   V L DT+ +  V                   A    Q  + K LL+ P+++      + +P+ E  ++     T  + E+  +A    D  + + ++ Q        GP      A + GD    +LD  EP +  AI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>sp|A6VQA3.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VQA3</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.18367</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ADLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQL-GGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDTTTPR---AMAQTLRQLTL</Hsp_qseq>
+      <Hsp_hseq>ADVKNNGMITQGIAKAALAMLDIDQAGFDYLDRKLLSSIIERFDGGPVGLDNLAAAIGEER---DTIEDVLEPYLIQQGFLQRTPRGRIATSQTYRHFGL</Hsp_hseq>
+      <Hsp_midline>AD+ N   I +      + + ++  A   Y D   ++ +I +  GGP G+   A AIG+E    D  E  L   +        TPR   A +QT R   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>sp|A0LDY1.1|</Hit_id>
+  <Hit_def>RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide synthase [NAD(+)] [Magnetococcus marinus MC-1]</Hit_def>
+  <Hit_accession>A0LDY1</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.95549</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DLVNYNPIAEKHVNGTMTLAELSAAALQYSDNTAMNKLIAQLGGPGGVTAFARAIGDETFRLDRTEPTLNTAIPGDPRDT----TTPRAMAQTLRQLTL</Hsp_qseq>
+      <Hsp_hseq>DLVEFH----RRVQEGLAESVVVEAVQHYQDEYGLSDLGALVGRPGALEGVAR---DVTQRLNQ---TLSFVEPLQPPDTKSLLSSGRKAADILRRLRL</Hsp_hseq>
+      <Hsp_midline>DLV ++    + V   +  + +  A   Y D   ++ L A +G PG +   AR   D T RL++   TL+   P  P DT    ++ R  A  LR+L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>sp|A0A0H5SJ89.1|</Hit_id>
+  <Hit_def>RecName: Full=CRISPR-associated endoribonuclease Cas13a; Short=EndoRNase; AltName: Full=HheCas13a [Herbinix hemicellulosilytica]</Hit_def>
+  <Hit_accession>A0A0H5SJ89</Hit_accession>
+  <Hit_len>1285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.11556</Hsp_evalue>
+      <Hsp_query-from>237</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1132</Hsp_hit-from>
+      <Hsp_hit-to>1167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>AVIWPQGRAPLVLVTYFTQPQQNAESRRDVLASAARII</Hsp_qseq>
+      <Hsp_hseq>AIIWK--RNPIAHLNHFTQTEQNSKSSLESLINSLRIL</Hsp_hseq>
+      <Hsp_midline>A+IW   R P+  + +FTQ +QN++S  + L ++ RI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>sp|Q39XN6.1|</Hit_id>
+  <Hit_def>RecName: Full=Holliday junction ATP-dependent DNA helicase RuvB [Geobacter metallireducens GS-15]</Hit_def>
+  <Hit_accession>Q39XN6</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.45806</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VNGTMTLAELSAAALQYSDNTAMNKLIAQLGG-PGGVTAFARAIGDE</Hsp_qseq>
+      <Hsp_hseq>VDESLKLLEIDEKGFDHMDRTIMLTIIDKFGGGPVGLDTIAAAIGEE</Hsp_hseq>
+      <Hsp_midline>V+ ++ L E+      + D T M  +I + GG P G+   A AIG+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>477327</Statistics_db-num>
+      <Statistics_db-len>180911227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

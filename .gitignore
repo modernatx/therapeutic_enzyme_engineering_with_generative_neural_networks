@@ -145,5 +145,4 @@ cython_debug/
 
 # Custom stuff
 
-data/
 interrogate_badge.svg
