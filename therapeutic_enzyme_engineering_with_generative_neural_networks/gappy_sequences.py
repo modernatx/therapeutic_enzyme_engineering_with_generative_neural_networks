@@ -9,12 +9,14 @@ from seqlike.encoders import ENCODERS
 
 
 def gap_score(seqrec, counts, alphabet_letters, motif_depth, threshold=0.95):
-    """Score sequences based on gaps introduced to an alignment represented by motif.
-    Counts number of gap characters in alignment column for which seqrec has non-gap character.
+    """Score sequences based on gaps introduced to an alignment by the sequence.
+    Counts number of gap characters in alignment column for which seqrec has non-gap character,
+    i.e., how many gaps introduced by `seqrec`.
+
     :param seqrec: a SeqRecord
-    :param counts: TODO
-    :param alphabet_letters: TODO
-    :param motif_depth: TODO
+    :param counts: a 2D array (N x L) of letter counts, where N is seqrec length and L is alphabet length
+    :param alphabet_letters: list of unique alphabet letters corresponding to dim 2 of `counts`
+    :param motif_depth: number of sequences in the alignment
     :param threshold: a gap count threshold (%); will only score column when gap count is
         greater than this percent
     :return: a float representing the gap score
@@ -57,25 +59,28 @@ def identify_gappy_sequences(aligned, threshold=0.95, min_score=10):
     return [seqid for score, seqid in gap_scores if score > min_score]
 
 
-def characterize_non_gappy_sequences(aligned, refrec, threshold=0.95, min_score=10):
+def characterize_non_gappy_sequences(aligned, refrec, threshold=0.95, min_score=10, verbose=False):
     """Generate summary dataframe for non-gappy sequences
 
     :param aligned: a sequence alignment
-    :param refrec: TODO
+    :param refrec: a SeqRecord with the reference sequence
     :param threshold: a gap count threshold (%); will only score column when gap count is
         greater than this percent; higher values will yield fewer gappy sequences
     :param min_score: gap score threshold above which a sequence is considered gappy
-    :return: TODO
+    :param verbose: if True, print verbose output
+    :return: a DataFrame object
     """
-    print("params: threshold %s, min_score %s" % (threshold, min_score), refrec.id)
     gap_scores = gap_score_sequences(aligned, threshold=threshold)
     ignore = [seqid for score, seqid in gap_scores if score > min_score]
-    print("ignore:", len(ignore))
+    if verbose:
+        print("params: threshold %s, min_score %s" % (threshold, min_score), refrec.id)
+        print("ignore:", len(ignore))
     seqrecs = [seqrec for seqrec in aligned if seqrec.id not in ignore]
     sub_aligned = mafft_alignment(seqrecs, preserve_order=False, reorder=False, alphabet=aligned._alphabet)
-    print("non-gappy sequences:", len(seqrecs), len(sub_aligned))
     alignment_length_mult = sub_aligned.get_alignment_length() / len(refrec)
-    print("alignment lengths:", aligned.get_alignment_length() / len(refrec), alignment_length_mult)
+    if verbose:
+        print("non-gappy sequences:", len(seqrecs), len(sub_aligned))
+        print("alignment lengths:", aligned.get_alignment_length() / len(refrec), alignment_length_mult)
     return pd.DataFrame(
         [
             {

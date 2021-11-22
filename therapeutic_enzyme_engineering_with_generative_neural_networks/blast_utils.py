@@ -10,16 +10,18 @@ from seqlike.alphabets import gap_letter
 def run_protein_blast(seqrec, xmlfile, txids=None, entrez=None, local=False, db="nr", evalue=10, hits=500, **kwargs):
     """Run protein BLAST, return a NCBI records generator
 
-    :param seqrec: TODO
-    :param xmlfile: TODO
-    :param txids: TODO, defaults to None
-    :param entrez: TODO, defaults to None
-    :param local: TODO, defaults to False
-    :param db: TODO, defaults to "nr"
-    :param evalue: TODO, defaults to 10
-    :param hits: TODO, defaults to 500
-    :param kwargs: TODO
-    :return: TODO
+    :param seqrec: a BioPython SeqRecord with the query sequence
+    :param xmlfile: filename for BLAST result in NCBI XML format; if the file exists, read it and skip the BLAST query
+    :param txids: a list of NCBI taxonomy IDs, defaults to None
+    :param entrez: a list of Entrez query strings, defaults to None
+    :param local: if True, execute BLAST search by command line instead of via the BLAST website, defaults to False
+    :param db: the database to BLAST against, defaults to "nr"
+    :param evalue: the expectation value cutoff, defaults to 10
+    :param hits: the number of BLAST hits to return, defaults to 500
+    :param kwargs: additional keyword arguments for BLAST
+    :return: an iterator of Bio.Blast.Record objects (BLAST records)
+
+    :sa: https://biopython.org/docs/1.75/api/Bio.Blast.Applications.html
     """
     # use cached BLAST XML file if it already exists
     try:
@@ -96,25 +98,25 @@ def ungap_to_reference(seq, ref, gap_letter):
 
 
 def pad_hsp(seq, start, end, length):
-    """Pad sequence
+    """Pad sequence for High Scoring Pair (HSP)
 
-    :param seq: TODO
-    :param start: TODO
-    :param end: TODO
-    :param length: TODO
-    :return: TODO
+    :param seq: a string representing the sequence to pad
+    :param start: the start coordinate of the BLAST query
+    :param end: the end coordinate of the BLAST query
+    :param length: the length of the query sequence (for end padding)
+    :return: a padded sequence string
     """
     return gap_letter * (start - 1) + seq + gap_letter * (length - end)
 
 
 def merge_hsps(hsps, query_length):
-    """Helper function for parse_seqrecs_from_blast
+    """Helper function for `parse_seqrecs_from_blast()`
     Gaps and overlap often exist, as well as different alignments.
     If overlap conflict exists, return unmerged sequences.
 
     :param hsps: list of sequence strings
-    :param query_length: query sequence
-    :return: TODO
+    :param query_length: the length of the query sequence
+    :return: a list of 1 or more sequences corresponding to merged High Scoring Pairs (HSPs)
     """
 
     seqs = list()
@@ -151,7 +153,7 @@ def merge_hsps(hsps, query_length):
 
 
 def parse_seqrecs_from_blast(blastrecs, seq_type="aa", top_hsp_only=False, use_blast_align=True, verbose=False):
-    """Generator of SeqRecord based on BLAST records
+    """Generator of SeqLikes based on BLAST records
 
     :param blastrecs: records from NCBIXML.parse or similar
     :param seq_type: "aa" or "nt" for SeqLike
@@ -159,7 +161,7 @@ def parse_seqrecs_from_blast(blastrecs, seq_type="aa", top_hsp_only=False, use_b
     :param use_blast_align: prepend/append sequence with gap letters, also slice subject sequences to
         line up with query/ref sequence; resulting seqrecs should be aligned and of equal length
     :param verbose: extra output, defaults to False
-    :yield: TODO
+    :yield: a SeqLike object
     """
     for blastrec in blastrecs:
         for alignment in blastrec.alignments:
@@ -193,7 +195,7 @@ def parse_genbank_ids_from_blast(blastrecs):
     """Generator of GenBank accession IDs based on BLAST records
 
     :param blastrecs: records from NCBIXML.parse or similar
-    :yield: TODO
+    :yield: a GenBank accession ID
     """
     for blastrec in blastrecs:
         for alignment in blastrec.alignments:
