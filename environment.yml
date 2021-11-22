@@ -38,7 +38,12 @@ dependencies:
 # Testing
 - pytest
 - hypothesis
+# project specific
+- biopython
+- bokeh
 # pip dependencies, which cannot be installed via conda
 - pip:
   - mkdocstrings
   - mknotebooks
+  - seqlike
+  - python-slugify
