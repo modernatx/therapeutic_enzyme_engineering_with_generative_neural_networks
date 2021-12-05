@@ -9,14 +9,14 @@ from torch import nn
 class VAE(nn.Module):
     """This is an generic class for sequence VAEs."""
 
-    def __init__(self, sequence_length: int, layer_sizes: List[int], z_size, batch_size=128, alphabet_size=28):
-        """TODO
+    def __init__(self, sequence_length: int, layer_sizes: List[int], z_size, alphabet_size=28):
+        """This class initializes internal encoder and decoder objects that downsample/
+        upsample 2x at every layer.
 
-        :param sequence_length: TODO
-        :param layer_sizes: TODO
-        :param z_size: TODO
-        :param batch_size: TODO, defaults to 128
-        :param alphabet_size: TODO, defaults to 28
+        :param sequence_length: the length of the sequence alignment
+        :param layer_sizes: a list of number of kernels in the encoder and decoder.
+        :param z_size: size of the latent space
+        :param alphabet_size: number of AAs in the alphabet, defaults to 28 which is the full SeqLike AA alphabet
         """
         super().__init__()
 
@@ -24,10 +24,13 @@ class VAE(nn.Module):
 
         self.layer_sizes = layer_sizes
         self.z_size = z_size
-        self.batch_size = batch_size
         self.alphabet_size = alphabet_size
         self.data_input_size = (1, self.sequence_length, self.alphabet_size)
 
+        # build padding amounts
+        # We do this because 2x down and up sampling only works for sequences that are
+        # a power of 2 in length otherwise.  We add or remove single "columns" so that
+        # the length (3rd dim) is always even (batch x 1 x length x alphabet size)
         self.padding = []
         n_ = self.sequence_length
         for _ in range(len(layer_sizes)):
@@ -45,21 +48,23 @@ class VAE(nn.Module):
         self.step_number = 0
 
     def sample_gaussian(self, mu, logvar):
-        """TODO
+        """Return a multivariate sample given means and log variances.  This implements the "reparametrization trick"
+        and is passed into the decoder.
 
-        :param mu: TODO
-        :param logvar: TODO
-        :return: TODO
+        :param mu: a set of means
+        :param logvar: a set of logvariances
+        :return: a sample
         """
         std = torch.exp(logvar * 0.5)
         eps = torch.normal(mean=torch.zeros_like(std), std=torch.ones_like(std)).to(std.device)
         return (eps * std) + mu
 
     def forward(self, x):
-        """TODO
+        """Forward pass of the whole VAE
 
-        :param x: TODO
-        :return: TODO
+        :param x: a batch of one-hot encoded sequences (batch x 1 x length x alphabet size)
+        :return: a tuple of reconstructed samples, mu and logvar from the encoder, and the specific sample that
+                 was sent to the decord.
         """
         mu, logvar = self.encoder(x)
 
@@ -78,12 +83,15 @@ class EncodingConvLayer(nn.Module):
     """This is an class for module that contains conv, batch norm, elu and pooling."""
 
     def __init__(self, input_size, layer_size, kernel_size=(3, 3), asymmetric_padding=False):
-        """TODO
+        """This implements a "compound layer" which pads if needed, then computes a convolution
+        followed by batch norm, ELU and then 2x pooling in the length dimension.
 
-        :param input_size: TODO
-        :param layer_size: TODO
-        :param kernel_size: TODO, defaults to (3, 3)
-        :param asymmetric_padding: TODO, defaults to False
+        Typically not used directly, but only within an encoder
+
+        :param input_size: size of input
+        :param layer_size: number of conv kernels
+        :param kernel_size: kernel size, defaults to (3, 3)
+        :param asymmetric_padding: weather to pad or not, defaults to False
         """
         super(EncodingConvLayer, self).__init__()
         self.asymmetric_padding = asymmetric_padding
@@ -98,10 +106,10 @@ class EncodingConvLayer(nn.Module):
         )
 
     def forward(self, x):
-        """TODO
+        """Forward pass of compound layer.
 
-        :param x: TODO
-        :return: TODO
+        :param x: input (batch x 1 x length x alphabet size)
+        :return: output (batch x 1 x length/2 x alphabet size)
         """
         if self.asymmetric_padding:
             x = self.padder(x)
@@ -112,12 +120,15 @@ class DecodingConvLayer(nn.Module):
     """This is an class for module that contains conv, batch norm, elu and upsampling."""
 
     def __init__(self, input_size, layer_size, kernel_size=(3, 3), asymmetric_cropping=False):
-        """TODO
+        """This implements a "compound layer" which crops if needed, then computes a convolution
+        followed by batch norm, ELU and then 2x upsampling in the length dimension.
 
-        :param input_size: TODO
-        :param layer_size: TODO
-        :param kernel_size: TODO, defaults to (3, 3)
-        :param asymmetric_cropping: TODO, defaults to False
+        Typically not used directly, but only within an encoder
+
+        :param input_size: size of input
+        :param layer_size: number of conv kernels
+        :param kernel_size: kernel size, defaults to (3, 3)
+        :param asymmetric_cropping: weather to crop or not, defaults to False
         """
         super(DecodingConvLayer, self).__init__()
         self.asymmetric_cropping = asymmetric_cropping
@@ -132,10 +143,10 @@ class DecodingConvLayer(nn.Module):
         self.cropper = nn.ConstantPad2d(padding=(0, 0, -1, 0), value=0)
 
     def forward(self, x):
-        """TODO
+        """Forward pass of compound layer.
 
-        :param x: TODO
-        :return: TODO
+        :param x: input (batch x 1 x length x alphabet size)
+        :return: output (batch x 1 x length*2 x alphabet size)
         """
         x = self.layers(x)
         if self.asymmetric_cropping:
@@ -152,12 +163,12 @@ class Encoder(nn.Module):
     """This is an class defining a convolution encoder."""
 
     def __init__(self, layer_sizes, padding, z_size, data_input_size):
-        """TODO
+        """Class for the encoder, which uses multiple EncodingConvLayers.
 
-        :param layer_sizes: TODO
-        :param padding: TODO
-        :param z_size: TODO
-        :param data_input_size: TODO
+        :param layer_sizes: the number of kernels in each layer
+        :param padding: a list to specify if we need to pad or not before pooling
+        :param z_size: size of the latent space
+        :param data_input_size: initial input size, used to define fully connected layer
         """
         super().__init__()
         self.layers = []
@@ -176,10 +187,10 @@ class Encoder(nn.Module):
         self.fc_log_var = nn.Linear(self.encoded_flat_size, z_size)
 
     def calculate_encoded_sizes(self, data_input_size):
-        """TODO
+        """This method takes an expected data input size and calculates what the size of the input to the fully connect layer will be.
 
-        :param data_input_size: TODO
-        :return: TODO
+        :param data_input_size: input datasize
+        :return: tuple of the full encoded size and the flattened encoded size
         """
         x = torch.ones(1, *data_input_size, requires_grad=False)
         for i, layer in enumerate(self.layers):
@@ -187,10 +198,10 @@ class Encoder(nn.Module):
         return x.size()[1:], int(np.prod(x.size()[1:]))
 
     def forward(self, x):
-        """TODO
+        """forward pass of the encoder
 
-        :param x: TODO
-        :return: TODO
+        :param x: input data (batch x 1 x sequence length x alphabet size)
+        :return: mus and logvars of the latent space
         """
         for layer in self.layers:
             x = layer(x)
@@ -202,13 +213,13 @@ class Decoder(nn.Module):
     """This is an class defining a convolution decoder."""
 
     def __init__(self, layer_sizes, padding, z_size, encoded_flat_size, encoded_full_size):
-        """TODO
+        """Class for the decoder, which uses multiple DecodingConvLayers
 
-        :param layer_sizes: TODO
-        :param padding: TODO
-        :param z_size: TODO
-        :param encoded_flat_size: TODO
-        :param encoded_full_size: TODO
+        :param layer_sizes: the number of kernels in each layer
+        :param padding: a list to specify if we need to crop or not before upsampling
+        :param z_size: size of the latent space
+        :param encoded_flat_size: size of the flattened encoded sequence
+        :param encoded_full_size: size of the full encoded sequence
         """
         super().__init__()
         self.layers = []
@@ -231,10 +242,10 @@ class Decoder(nn.Module):
         self.layers = nn.ModuleList(self.layers)
 
     def forward(self, x):
-        """TODO
+        """forward pass of the encoder
 
-        :param x: TODO
-        :return: TODO
+        :param x: sample from the laten space
+        :return: reconstructed data (batch x 1 x sequence length x alphabet size)
         """
         x = self.z_out(x)
         x = self.z_out_elu(x)
