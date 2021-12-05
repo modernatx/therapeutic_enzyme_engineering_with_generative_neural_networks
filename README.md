@@ -1,19 +1,15 @@
-# therapeutic_enzyme_engineering_with_generative_neural_networks
+# Therapeutic Enzyme Engineering with Generative Neural Networks
 
-Welcome to the therapeutic_enzyme_engineering_with_generative_neural_networks repository!
+Welcome to the therapeutic_enzyme_engineering_with_generative_neural_networks repository!  This repo contains code associated with our publication "Therapeutic Enzyme Engineering with Generative Neural Networks" by Giessel et al., 2021.  If you cite this work, please use the following citation:
+
+TODO - https://zenodo.org/ for DOI
 
 ## Quickstart
 
-1. Clone the repository: `git clone git@bitbucket.org:modernatx/therapeutic_enzyme_engineering_with_generative_neural_networks.git`
+1. Clone the repository: `git clone git@github.com:modernatx/therapeutic_enzyme_engineering_with_generative_neural_networks.git`
 2. Install the conda environment: `conda env create -f environment.yml`
 3. Install the custom source package: `pip install -e .`
-
-Choose your own adventure:
-
 4. Check out the analysis notebooks in the `notebooks/` directory
-5. Preview the docs: `mkdocs serve`
-6. Run the tests: `pytest .`
-
 ## Who to contact:
 
 agiessel@modernatx.com
