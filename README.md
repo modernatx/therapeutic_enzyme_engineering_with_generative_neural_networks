@@ -2,7 +2,7 @@
 
 Welcome to the therapeutic_enzyme_engineering_with_generative_neural_networks repository!  This repo contains code associated with our publication "Therapeutic Enzyme Engineering with Generative Neural Networks" by Giessel et al., 2021.  If you cite this work, please use the following citation:
 
-TODO - https://zenodo.org/ for DOI
+[![DOI](https://zenodo.org/badge/429204626.svg)](https://zenodo.org/badge/latestdoi/429204626)
 
 ## Quickstart
 
