@@ -5,7 +5,7 @@ This is useful for MSA-based modeling, e.g., for neural networks or conservation
 import pandas as pd
 from seqlike.alignment_commands import mafft_alignment
 from seqlike.alphabets import gap_letter
-from seqlike.encoders import ENCODERS
+from seqlike.encoders import onehot_encoder_from_alphabet
 
 
 def gap_score(seqrec, counts, alphabet_letters, motif_depth, threshold=0.95):
@@ -38,7 +38,7 @@ def gap_score_sequences(aligned, threshold=0.95):
         greater than this percent
     :return: list of sorted gap scores
     """
-    counts = aligned.seq.as_counts(encoder=ENCODERS[aligned.seq._type]["onehot"]["full"])
+    counts = aligned.seq.as_counts(encoder=onehot_encoder_from_alphabet(aligned.seq.alphabet))
     gap_scores = [
         (gap_score(seqrec, counts, aligned.seq.alphabet, len(aligned), threshold=threshold), seqrec.id)
         for seqrec in aligned
